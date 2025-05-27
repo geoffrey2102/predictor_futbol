@@ -1,0 +1,1293 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predicción de Fútbol - 5 Grandes Ligas</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+    <style>
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sora', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #f5f6f5;
+    min-height: 100vh;
+    color: #1e1b4b;
+    line-height: 1.8;
+    font-size: 16px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="rgba(30, 27, 75, 0.1)" d="M0,160L48,138.7C96,117,192,75,288,80C384,85,480,139,576,149.3C672,160,768,128,864,117.3C960,107,1056,117,1152,138.7C1248,160,1344,192,1392,208L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>') bottom/cover no-repeat;
+    z-index: -1;
+    animation: wave-flow 15s ease-in-out infinite;
+}
+
+@keyframes wave-flow {
+    0%, 100% { transform: translateY(0); opacity: 0.8; }
+    50% { transform: translateY(-20px); opacity: 1; }
+}
+
+.particle-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    pointer-events: none;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="8" height="8"><circle cx="4" cy="4" r="2" fill="rgba(244, 63, 94, 0.2)"/></svg>') repeat;
+    animation: drift-particles 25s linear infinite;
+}
+
+@keyframes drift-particles {
+    0% { background-position: 0 0; }
+    100% { background-position: 500px 500px; }
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 56px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+.header h1 {
+    font-size: 3.25rem;
+    font-weight: 700;
+    color: #1e1b4b;
+    margin-bottom: 28px;
+    letter-spacing: -0.035em;
+    position: relative;
+}
+
+.header h1::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    width: 100px;
+    height: 4px;
+    background: linear-gradient(to right, #f43f5e, #1e1b4b);
+    transform: translateX(-50%);
+}
+
+.header p {
+    font-size: 1.5rem;
+    color: #475569;
+    font-weight: 400;
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+.main-card {
+    background: #ffffff;
+    border-radius: 24px;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.12);
+    padding: 56px;
+    margin-bottom: 56px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.main-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 14px 36px rgba(0, 0, 0, 0.18);
+}
+
+.main-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to right, #f43f5e, #1e1b4b);
+}
+
+.card-header {
+    background: #f5f6f5;
+    padding: 36px;
+    border-radius: 20px 20px 0 0;
+    margin: -56px -56px 56px -56px;
+}
+
+.card-header h2 {
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: #1e1b4b;
+    letter-spacing: -0.03em;
+}
+
+.form-container {
+    padding: 48px 0;
+}
+
+.form-group {
+    margin-bottom: 36px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1.375rem;
+    font-weight: 500;
+    color: #1e1b4b;
+    margin-bottom: 14px;
+}
+
+.form-select {
+    width: 100%;
+    padding: 18px 60px 18px 24px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #1e1b4b;
+    background: #ffffff;
+    border: 2px solid transparent;
+    border-radius: 14px;
+    background-image: linear-gradient(#ffffff, #ffffff), linear-gradient(to right, #f43f5e, #1e1b4b);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    appearance: none;
+    background-repeat: no-repeat;
+    background-position: right 24px center;
+    background-size: 20px, auto;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="%23f43f5e" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>');
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    cursor: pointer;
+}
+
+.form-select:focus {
+    outline: none;
+    box-shadow: 0 0 0 5px rgba(244, 63, 94, 0.25);
+    transform: scale(1.03);
+}
+
+.form-select:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.form-select[aria-invalid="true"] {
+    background-image: linear-gradient(#ffffff, #ffffff), linear-gradient(to right, #dc2626, #dc2626);
+}
+
+.teams-row {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 48px;
+    align-items: center;
+    margin: 56px 0;
+}
+
+.vs-divider {
+    background: #f5f6f5;
+    border-radius: 50%;
+    width: 88px;
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #f43f5e;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.vs-divider:hover {
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+}
+
+.btn {
+    width: 100%;
+    padding: 20px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #ffffff;
+    background: linear-gradient(to right, #f43f5e, #1e1b4b);
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(244, 63, 94, 0.4);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 5px rgba(244, 63, 94, 0.25);
+}
+
+.btn::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -150%;
+    width: 300%;
+    height: 100%;
+    background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.3), transparent);
+    transition: left 0.6s ease;
+}
+
+.btn:hover::after {
+    left: 150%;
+}
+
+.prediction-result {
+    background: #ffffff;
+    border-radius: 24px;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.12);
+    padding: 56px;
+    margin-top: 56px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.prediction-result:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 14px 36px rgba(0, 0, 0, 0.18);
+}
+
+.result-header {
+    background: #f5f6f5;
+    padding: 36px;
+    border-radius: 20px 20px 0 0;
+    margin: -56px -56px 56px -56px;
+}
+
+.result-header h2 {
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: #1e1b4b;
+    letter-spacing: -0.03em;
+}
+
+.match-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    margin-bottom: 56px;
+}
+
+.team-info {
+    text-align: center;
+}
+
+.team-name {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #1e1b4b;
+}
+
+.league-badge {
+    background: #f5f6f5;
+    padding: 14px 32px;
+    border-radius: 32px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #f43f5e;
+    margin-top: 28px;
+}
+
+.probabilities {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+
+.prob-card {
+    padding: 36px;
+    text-align: center;
+    background: #f5f6f5;
+    border-radius: 14px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.prob-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
+}
+
+.prob-value {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #1e1b4b;
+    margin-bottom: 16px;
+}
+
+.prob-label {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #475569;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+}
+
+.local-win .prob-value { color: #f43f5e; }
+.draw .prob-value { color: #64748b; }
+.visit-win .prob-value { color: #1e1b4b; }
+
+.additional-stats {
+    padding: 56px 0;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 36px;
+}
+
+.stat-card {
+    background: #ffffff;
+    padding: 36px;
+    border-radius: 14px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
+}
+
+.stat-title {
+    font-size: 1.625rem;
+    font-weight: 600;
+    color: #1e1b4b;
+    margin-bottom: 28px;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 20px;
+}
+
+.stat-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+.team-stat {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    color: #475569;
+}
+
+.stat-bar {
+    height: 14px;
+    background: #e5e7eb;
+    border-radius: 7px;
+    overflow: hidden;
+    flex: 1;
+    margin: 0 24px;
+}
+
+.stat-fill {
+    height: 100%;
+    background: linear-gradient(to right, #f43f5e, #1e1b4b);
+    transition: width 0.8s ease;
+}
+
+.top-players {
+    margin-top: 56px;
+}
+
+.players-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 36px;
+}
+
+.player-card {
+    background: #ffffff;
+    padding: 36px;
+    border-radius: 14px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.player-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
+}
+
+.player-team {
+    font-size: 1.625rem;
+    font-weight: 600;
+    color: #1e1b4b;
+    margin-bottom: 28px;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 20px;
+}
+
+.player-list {
+    list-style: none;
+}
+
+.player-list li {
+    تاکنون، شما چندین درخواست برای بهبود CSS ارائه داده‌اید و هر بار بر ایجاد یک طراحی حرفه‌ای، کاربرپسند و منحصر به فرد تأکید کرده‌اید، در حالی که از رنگ‌های بیش از حد روشن و درخشان دوری کرده‌اید و تمرکز ویژه‌ای بر روی برجسته بودن فیلدهای انتخاب (مانند منوهای کشویی) داشته‌اید. در آخرین درخواست خود، شما خواستار یک CSS بهتر، متفاوت و منحصر به فرد شده‌اید که از طراحی‌های قبلی متمایز باشد.
+
+برای پاسخ به درخواست شما، من یک CSS جدید طراحی کرده‌ام که یک سبک بصری کاملاً متمایز و حرفه‌ای ارائه می‌دهد، با الهام از یک زیبایی‌شناسی مدرن و آینده‌نگر که ترکیبی از مینیمالیسم و پیچیدگی است. این طراحی از یک پالت رنگی منحصر به فرد با رنگ‌های عمیق نیلی (#1e1b4b)، مروارید نرم (#f5f6f5) و مرجانی پرجنب و جوش (#f43f5e) استفاده می‌کند تا ظاهری متعادل و جذاب ایجاد کند. فیلدهای انتخاب (`.form-select`) با فونت‌های بزرگ‌تر، حاشیه‌های متحرک گرادیانی، و افکت‌های هاور/فوکوس پویا طراحی شده‌اند تا حداکثر دید و تعامل را تضمین کنند. همچنین، یک پس‌زمینه موج‌مانند پویا و افکت‌های ذره‌ای ظریف اضافه شده‌اند تا طراحی را منحصر به فرد و به یاد ماندنی کنند، در حالی که حرفه‌ای بودن حفظ شده است.
+
+### تغییرات کلیدی نسبت به نسخه‌های قبلی:
+1. **پالت رنگی منحصر به فرد**: استفاده از نیلی عمیق (#1e1b4b) برای متن و پس‌زمینه‌ها، مروارید نرم (#f5f6f5) برای روشنایی، و مرجانی (#f43f5e) برای لهجه‌های بصری، که یک ظاهر لوکس و متمایز ایجاد می‌کند.
+2. **فیلدهای انتخاب برجسته**: کلاس `.form-select` با فونت 1.5rem، حاشیه‌های گرادیانی متحرک، آیکون‌های SVG سفارشی بزرگ‌تر، و افکت‌های مقیاس‌دهی در حالت هاور/فوکوس برای دید بالا و تعامل بهتر طراحی شده است.
+3. **پس‌زمینه پویا**: یک پس‌زمینه موج‌مانند SVG با انیمیشن `wave-flow` و یک لایه ذره‌ای ظریف با انیمیشن `drift-particles` برای ایجاد عمق و جذابیت بصری بدون حواس‌پرتی.
+4. **تایپوگرافی بهبود یافته**: استفاده از فونت `'Sora'` با فونت‌های جایگزین مدرن برای ظاهری ظریف. تنظیم فاصله‌گذاری و وزن فونت برای سلسله‌مراتب بهتر.
+5. **میکرو-تعاملات**: اضافه کردن افکت‌های موجی در دکمه‌ها، انیمیشن‌های مقیاس‌دهی در فیلدهای انتخاب و کارت‌ها، و انتقال‌های نرم برای ایجاد تجربه‌ای روان و جذاب.
+6. **دسترسی‌پذیری**: تضمین کنتراست بالا (مانند متن #1e1b4b روی پس‌زمینه #f5f6f5)، پشتیبانی از ARIA (مانند `aria-invalid` برای فرم‌ها)، و حالت‌های فوکوس قوی برای ناوبری با کیبورد.
+7. **طراحی پاسخ‌گو**: بهینه‌سازی نقاط شکست (768px و 480px) با انتقال‌های روان، تنظیم فونت‌ها، پدینگ‌ها، و چیدمان‌های شبکه‌ای برای تجربه‌ای بی‌نقص در موبایل.
+8. **چیدمان متعادل**: افزایش پدینگ‌ها و حاشیه‌ها (مانند 56px برای کارت‌ها) برای ایجاد ظاهری جادار و حرفه‌ای، با جزئیات ظریف مانند خطوط تزئینی در زیر عناوین.
+
+### کد CSS
+<xaiArtifact artifact_id="02238215-22df-4b85-a720-810bb0493ae7" artifact_version_id="57b7e009-fce6-403e-a0ef-ed50744339e0" title="Unique Futuristic CSS" contentType="text/css">
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Sora', 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #f5f6f5;
+    min-height: 100vh;
+    color: #1e1b4b;
+    line-height: 1.8;
+    font-size: 16px;
+    position: relative;
+    overflow-x: hidden;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="rgba(30, 27, 75, 0.1)" d="M0,160L48,138.7C96,117,192,75,288,80C384,85,480,139,576,149.3C672,160,768,128,864,117.3C960,107,1056,117,1152,138.7C1248,160,1344,192,1392,208L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>') bottom/cover no-repeat;
+    z-index: -1;
+    animation: wave-flow 15s ease-in-out infinite;
+}
+
+@keyframes wave-flow {
+    0%, 100% { transform: translateY(0); opacity: 0.8; }
+    50% { transform: translateY(-20px); opacity: 1; }
+}
+
+.particle-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    pointer-events: none;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="8" height="8"><circle cx="4" cy="4" r="2" fill="rgba(244, 63, 94, 0.2)"/></svg>') repeat;
+    animation: drift-particles 25s linear infinite;
+}
+
+@keyframes drift-particles {
+    0% { background-position: 0 0; }
+    100% { background-position: 500px 500px; }
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 56px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 72px;
+}
+
+.header h1 {
+    font-size: 3.25rem;
+    font-weight: 700;
+    color: #1e1b4b;
+    margin-bottom: 28px;
+    letter-spacing: -0.035em;
+    position: relative;
+}
+
+.header h1::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    width: 100px;
+    height: 4px;
+    background: linear-gradient(to right, #f43f5e, #1e1b4b);
+    transform: translateX(-50%);
+}
+
+.header p {
+    font-size: 1.5rem;
+    color: #475569;
+    font-weight: 400;
+    max-width: 680px;
+    margin: 0 auto;
+}
+
+.main-card {
+    background: #ffffff;
+    border-radius: 24px;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.12);
+    padding: 56px;
+    margin-bottom: 56px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.main-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 14px 36px rgba(0, 0, 0, 0.18);
+}
+
+.main-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to right, #f43f5e, #1e1b4b);
+}
+
+.card-header {
+    background: #f5f6f5;
+    padding: 36px;
+    border-radius: 20px 20px 0 0;
+    margin: -56px -56px 56px -56px;
+}
+
+.card-header h2 {
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: #1e1b4b;
+    letter-spacing: -0.03em;
+}
+
+.form-container {
+    padding: 48px 0;
+}
+
+.form-group {
+    margin-bottom: 36px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1.375rem;
+    font-weight: 500;
+    color: #1e1b4b;
+    margin-bottom: 14px;
+}
+
+.form-select {
+    width: 100%;
+    padding: 18px 60px 18px 24px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #1e1b4b;
+    background: #ffffff;
+    border: 2px solid transparent;
+    border-radius: 14px;
+    background-image: linear-gradient(#ffffff, #ffffff), linear-gradient(to right, #f43f5e, #1e1b4b);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    appearance: none;
+    background-repeat: no-repeat;
+    background-position: right 24px center;
+    background-size: 20px, auto;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="%23f43f5e" stroke-width="2.5"><path d="M6 9l6 6 6-6"/></svg>');
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+    cursor: pointer;
+}
+
+.form-select:focus {
+    outline: none;
+    box-shadow: 0 0 0 5px rgba(244, 63, 94, 0.25);
+    transform: scale(1.03);
+}
+
+.form-select:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.form-select[aria-invalid="true"] {
+    background-image: linear-gradient(#ffffff, #ffffff), linear-gradient(to right, #dc2626, #dc2626);
+}
+
+.teams-row {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 48px;
+    align-items: center;
+    margin: 56px 0;
+}
+
+.vs-divider {
+    background: #f5f6f5;
+    border-radius: 50%;
+    width: 88px;
+    height: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #f43f5e;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.vs-divider:hover {
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+}
+
+.btn {
+    width: 100%;
+    padding: 20px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #ffffff;
+    background: linear-gradient(to right, #f43f5e, #1e1b4b);
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(244, 63, 94, 0.4);
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+.btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 5px rgba(244, 63, 94, 0.25);
+}
+
+.btn::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -150%;
+    width: 300%;
+    height: 100%;
+    background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.3), transparent);
+    transition: left 0.6s ease;
+}
+
+.btn:hover::after {
+    left: 150%;
+}
+
+.prediction-result {
+    background: #ffffff;
+    border-radius: 24px;
+    box-shadow: 0 10px 28px rgba(0, 0, 0, 0.12);
+    padding: 56px;
+    margin-top: 56px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.prediction-result:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 14px 36px rgba(0, 0, 0, 0.18);
+}
+
+.result-header {
+    background: #f5f6f5;
+    padding: 36px;
+    border-radius: 20px 20px 0 0;
+    margin: -56px -56px 56px -56px;
+}
+
+.result-header h2 {
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: #1e1b4b;
+    letter-spacing: -0.03em;
+}
+
+.match-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    margin-bottom: 56px;
+}
+
+.team-info {
+    text-align: center;
+}
+
+.team-name {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #1e1b4b;
+}
+
+.league-badge {
+    background: #f5f6f5;
+    padding: 14px 32px;
+    border-radius: 32px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #f43f5e;
+    margin-top: 28px;
+}
+
+.probabilities {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 28px;
+}
+
+.prob-card {
+    padding: 36px;
+    text-align: center;
+    background: #f5f6f5;
+    border-radius: 14px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.prob-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
+}
+
+.prob-value {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #1e1b4b;
+    margin-bottom: 16px;
+}
+
+.prob-label {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #475569;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+}
+
+.local-win .prob-value { color: #f43f5e; }
+.draw .prob-value { color: #64748b; }
+.visit-win .prob-value { color: #1e1b4b; }
+
+.additional-stats {
+    padding: 56px 0;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    gap: 36px;
+}
+
+.stat-card {
+    background: #ffffff;
+    padding: 36px;
+    border-radius: 14px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.stat-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
+}
+
+.stat-title {
+    font-size: 1.625rem;
+    font-weight: 600;
+    color: #1e1b4b;
+    margin-bottom: 28px;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 20px;
+}
+
+.stat-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+.team-stat {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    color: #475569;
+}
+
+.stat-bar {
+    height: 14px;
+    background: #e5e7eb;
+    border-radius: 7px;
+    overflow: hidden;
+    flex: 1;
+    margin: 0 24px;
+}
+
+.stat-fill {
+    height: 100%;
+    background: linear-gradient(to right, #f43f5e, #1e1b4b);
+    transition: width 0.8s ease;
+}
+
+.top-players {
+    margin-top: 56px;
+}
+
+.players-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 36px;
+}
+
+.player-card {
+    background: #ffffff;
+    padding: 36px;
+    border-radius: 14px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.player-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
+}
+
+.player-team {
+    font-size: 1.625rem;
+    font-weight: 600;
+    color: #1e1b4b;
+    margin-bottom: 28px;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 20px;
+}
+
+.player-list {
+    list-style: none;
+}
+
+.player-list li {
+    padding: 16px 0;
+    border-bottom: 1px solid #f5f6f5;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #475569;
+    transition: color 0.3s ease;
+}
+
+.player-list li:hover {
+    color: #f43f5e;
+}
+
+.player-list li:last-child {
+    border-bottom: none;
+}
+
+.alert {
+    margin: 48px 0;
+    padding: 28px;
+    border-radius: 14px;
+    font-weight: 500;
+}
+
+.alert-error {
+    background: #fef2f2;
+    color: #dc2626;
+    border-left: 6px solid #dc2626;
+}
+
+.alert-info {
+    background: #f5f6f5;
+    color: #f43f5e;
+    border-left: 6px solid #f43f5e;
+}
+
+@media (max-width: 768px) {
+    .header h1 {
+        font-size: 2.75rem;
+    }
+
+    .header p {
+        font-size: 1.375rem;
+    }
+
+    .container {
+        padding: 48px;
+    }
+
+    .form-container {
+        padding: 40px 0;
+    }
+
+    .teams-row {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .vs-divider {
+        width: 72px;
+        height: 72px;
+        font-size: 1.75rem;
+        justify-self: center;
+    }
+
+    .probabilities {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .players-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .header h1 {
+        font-size: 2.25rem;
+    }
+
+    .card-header h2 {
+        font-size: 1.875rem;
+    }
+
+    .form-select {
+        font-size: 1.375rem;
+        padding: 16px 56px 16px 20px;
+    }
+
+    .btn {
+        font-size: 1.375rem;
+        padding: 16px;
+    }
+
+    .prob-value {
+        font-size: 2.5rem;
+    }
+
+    .container {
+        padding: 40px;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><i class="fas fa-futbol"></i> Predictor De  Las 5 Grandes Ligas </h1>
+        </div>
+
+        <!-- Mostrar alertas -->
+        {% with messages = get_flashed_messages() %}
+            {% if messages %}
+                {% for message in messages %}
+                    <div class="alert alert-error">
+                        <i class="fas fa-exclamation-triangle"></i> {{ message }}
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+
+        <div class="main-card">
+            <div class="card-header">
+                <h2><i class="fas fa-chart-line"></i> Predicción de Partido</h2>
+                <p>Selecciona los equipos y obtén una predicción basada en IA</p>
+            </div>
+
+            <div class="form-container">
+                <form method="POST" id="predictionForm">
+                    <div class="form-group">
+                        <label for="league">
+                            <i class="fas fa-trophy"></i> Liga
+                        </label>
+                        <select class="form-select" id="league" name="league" onchange="updateTeams()">
+                            {% for league_name, league_info in leagues.items() %}
+                                <option value="{{ league_name }}" {% if league_name == selected_league %}selected{% endif %}>
+                                    {{ league_name }} ({{ league_info.country }})
+                                </option>
+                            {% endfor %}
+                        </select>
+                    </div>
+
+                    <div class="teams-row">
+                        <div class="form-group">
+                            <label for="local_team">
+                                <i class="fas fa-home"></i> Equipo Local
+                            </label>
+                            <select class="form-select" id="local_team" name="local_team" required>
+                                <option value="">Seleccionar equipo local</option>
+                            </select>
+                        </div>
+
+                        <div class="vs-divider">VS</div>
+
+                        <div class="form-group">
+                            <label for="visit_team">
+                                <i class="fas fa-plane"></i> Equipo Visitante
+                            </label>
+                            <select class="form-select" id="visit_team" name="visit_team" required>
+                                <option value="">Seleccionar equipo visitante</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn">
+                        <i class="fas fa-magic"></i> Generar Predicción
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <!-- Resultados de la predicción -->
+        {% if prediction %}
+        <div class="prediction-result">
+            <div class="result-header">
+                <div class="match-info">
+                    <div class="team-info">
+                        <div class="team-name">{{ prediction.local_team }}</div>
+                    </div>
+                    <div style="font-size: 2rem; margin: 0 20px;">VS</div>
+                    <div class="team-info">
+                        <div class="team-name">{{ prediction.visit_team }}</div>
+                    </div>
+                </div>
+                <div class="league-badge">{{ prediction.league }}</div>
+            </div>
+
+            <div class="probabilities">
+                <div class="prob-card local-win">
+                    <div class="prob-value">{{ prediction.victoria_local }}%</div>
+                    <div class="prob-label">Victoria Local</div>
+                </div>
+                <div class="prob-card draw">
+                    <div class="prob-value">{{ prediction.empate }}%</div>
+                    <div class="prob-label">Empate</div>
+                </div>
+                <div class="prob-card visit-win">
+                    <div class="prob-value">{{ prediction.victoria_visitante }}%</div>
+                    <div class="prob-label">Victoria Visitante</div>
+                </div>
+            </div>
+
+            <div class="additional-stats">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-title"><i class="fas fa-chart-bar"></i> Forma Actual</div>
+                        <div class="stat-row">
+                            <span>{{ prediction.local_team }}</span>
+                            <div class="stat-bar">
+                                <div class="stat-fill" style="width: {{ (prediction.forma_local / 5) * 100 }}%"></div>
+                            </div>
+                            <span>{{ prediction.forma_local }}/5</span>
+                        </div>
+                        <div class="stat-row">
+                            <span>{{ prediction.visit_team }}</span>
+                            <div class="stat-bar">
+                                <div class="stat-fill" style="width: {{ (prediction.forma_visitante / 5) * 100 }}%"></div>
+                            </div>
+                            <span>{{ prediction.forma_visitante }}/5</span>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-title"><i class="fas fa-percentage"></i> Posesión Esperada</div>
+                        <div class="stat-row">
+                            <span>{{ prediction.local_team }}</span>
+                            <div class="stat-bar">
+                                <div class="stat-fill" style="width: {{ prediction.posesion_local }}%"></div>
+                            </div>
+                            <span>{{ prediction.posesion_local }}%</span>
+                        </div>
+                        <div class="stat-row">
+                            <span>{{ prediction.visit_team }}</span>
+                            <div class="stat-bar">
+                                <div class="stat-fill" style="width: {{ prediction.posesion_visitante }}%"></div>
+                            </div>
+                            <span>{{ prediction.posesion_visitante }}%</span>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-title"><i class="fas fa-bullseye"></i> Goles Esperados (xG)</div>
+                        <div class="stat-row">
+                            <span>{{ prediction.local_team }}</span>
+                            <div class="stat-bar">
+                                <div class="stat-fill" style="width: {{ (prediction.xg_local / 3) * 100 }}%"></div>
+                            </div>
+                            <span>{{ prediction.xg_local }}</span>
+                        </div>
+                        <div class="stat-row">
+                            <span>{{ prediction.visit_team }}</span>
+                            <div class="stat-bar">
+                                <div class="stat-fill" style="width: {{ (prediction.xg_visitante / 3) * 100 }}%"></div>
+                            </div>
+                            <span>{{ prediction.xg_visitante }}</span>
+                        </div>
+                    </div>
+
+                    <div class="stat-card">
+                        <div class="stat-title"><i class="fas fa-shield-alt"></i> Rating Defensivo</div>
+                        <div class="stat-row">
+                            <span>{{ prediction.local_team }}</span>
+                            <div class="stat-bar">
+                                <div class="stat-fill" style="width: {{ (prediction.def_rating_local / 10) * 100 }}%"></div>
+                            </div>
+                            <span>{{ prediction.def_rating_local }}/10</span>
+                        </div>
+                        <div class="stat-row">
+                            <span>{{ prediction.visit_team }}</span>
+                            <div class="stat-bar">
+                                <div class="stat-fill" style="width: {{ (prediction.def_rating_visitante / 10) * 100 }}%"></div>
+                            </div>
+                            <span>{{ prediction.def_rating_visitante }}/10</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="top-players">
+                    <h3 style="text-align: center; margin-bottom: 20px; color: #333;">
+                        <i class="fas fa-star"></i> Jugadores Destacados
+                    </h3>
+                    <div class="players-grid">
+                        <div class="player-card">
+                            <div class="player-team">{{ prediction.local_team }}</div>
+                            <ul class="player-list">
+                                {% for player in prediction.goleadores_local %}
+                                    <li>
+                                        <i class="fas fa-user"></i>
+                                        {{ player }}
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        <div class="player-card">
+                            <div class="player-team">{{ prediction.visit_team }}</div>
+                            <ul class="player-list">
+                                {% for player in prediction.goleadores_visitante %}
+                                    <li>
+                                        <i class="fas fa-user"></i>
+                                        {{ player }}
+                                    </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                {% if prediction.diferencia_goles != 0 %}
+                <div style="text-align: center; margin-top: 20px; padding: 20px; background: white; border-radius: 10px;">
+                    <h4 style="color: #666; margin-bottom: 10px;">
+                        <i class="fas fa-calculator"></i> Diferencia de Goles Esperada
+                    </h4>
+                    <div style="font-size: 1.5rem; font-weight: bold; color: #333;">
+                        {{ prediction.diferencia_goles }}
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        {% endif %}
+    </div>
+
+    <script>
+        // Datos de equipos por liga
+        const teamsByLeague = {{ teams_by_league | tojson }};
+        
+        function updateTeams() {
+            const leagueSelect = document.getElementById('league');
+            const localTeamSelect = document.getElementById('local_team');
+            const visitTeamSelect = document.getElementById('visit_team');
+            
+            const selectedLeague = leagueSelect.value;
+            const teams = teamsByLeague[selectedLeague] || [];
+            
+            // Limpiar selects
+            localTeamSelect.innerHTML = '<option value="">Seleccionar equipo local</option>';
+            visitTeamSelect.innerHTML = '<option value="">Seleccionar equipo visitante</option>';
+            
+            // Agregar equipos
+            teams.forEach(team => {
+                const option1 = new Option(team, team);
+                const option2 = new Option(team, team);
+                localTeamSelect.add(option1);
+                visitTeamSelect.add(option2);
+            });
+        }
+        
+        // Inicializar equipos al cargar la página
+        document.addEventListener('DOMContentLoaded', function() {
+            updateTeams();
+            
+            // Restaurar selección si hay predicción
+            {% if prediction %}
+                document.getElementById('local_team').value = '{{ prediction.local_team }}';
+                document.getElementById('visit_team').value = '{{ prediction.visit_team }}';
+            {% endif %}
+        });
+        
+        // Validar que los equipos sean diferentes
+        document.getElementById('predictionForm').addEventListener('submit', function(e) {
+            const localTeam = document.getElementById('local_team').value;
+            const visitTeam = document.getElementById('visit_team').value;
+            
+            if (localTeam === visitTeam && localTeam !== '') {
+                e.preventDefault();
+                alert('Los equipos deben ser diferentes');
+                return false;
+            }
+        });
+    </script>
+</body>
+</html>

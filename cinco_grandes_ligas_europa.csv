@@ -1,0 +1,501 @@
+temporada,liga,pais,fecha,equipo_local,equipo_visitante,goles_local,goles_visitante,diferencia_goles,resultado,forma_local,forma_visitante,posesion_local,posesion_visitante,xg_local,xg_visitante,tiros_arco_local,tiros_arco_visitante,total_goles,over_2_5
+2024-2025,Premier League,England,2024-08-16,Manchester United,Fulham,1,0,1,1,2,0,41.6,58.4,1.07,1.99,18,4,1,0
+2024-2025,Premier League,England,2024-08-17,Ipswich,Liverpool,0,2,-2,2,0,4,42.5,57.5,0.63,2.58,10,10,2,0
+2024-2025,Premier League,England,2024-08-17,Arsenal,Wolves,2,0,2,1,4,0,48.4,51.6,1.23,1.37,10,11,2,0
+2024-2025,Premier League,England,2024-08-17,Everton,Brighton,0,3,-3,2,0,5,50.5,49.5,1.43,0.76,18,13,3,1
+2024-2025,Premier League,England,2024-08-17,Newcastle,Southampton,1,0,1,1,2,0,61.7,38.3,0.9,2.09,9,7,1,0
+2024-2025,Premier League,England,2024-08-17,Nottingham Forest,Bournemouth,1,1,0,X,2,2,61.0,39.0,1.42,2.46,18,7,2,0
+2024-2025,Premier League,England,2024-08-17,West Ham,Aston Villa,1,2,-1,2,2,4,59.8,40.2,1.51,1.55,14,16,3,1
+2024-2025,Premier League,England,2024-08-18,Brentford,Crystal Palace,2,1,1,1,4,2,65.0,35.0,0.6,1.87,4,6,3,1
+2024-2025,Premier League,England,2024-08-18,Chelsea,Manchester City,0,2,-2,2,0,4,48.6,51.4,2.46,1.42,7,15,2,0
+2024-2025,Premier League,England,2024-08-19,Leicester,Tottenham,1,1,0,X,2,2,42.0,58.0,2.82,0.76,6,16,2,0
+2024-2025,Premier League,England,2024-08-24,Brighton,Manchester United,2,1,1,1,4,2,58.9,41.1,2.47,2.71,17,19,3,1
+2024-2025,Premier League,England,2024-08-24,Tottenham,Everton,4,0,4,1,5,0,58.3,41.7,2.79,1.18,12,19,4,1
+2024-2025,Premier League,England,2024-08-24,Southampton,Nottingham Forest,0,1,-1,2,0,2,50.9,49.1,1.06,1.73,16,7,1,0
+2024-2025,Premier League,England,2024-08-24,Manchester City,Ipswich,4,1,3,1,5,2,49.9,50.1,1.04,1.33,10,11,5,1
+2024-2025,Premier League,England,2024-08-24,Fulham,Leicester,2,1,1,1,4,2,52.0,48.0,1.97,2.23,11,9,3,1
+2024-2025,Premier League,England,2024-08-24,Crystal Palace,West Ham,0,2,-2,2,0,4,62.5,37.5,1.58,0.82,5,10,2,0
+2024-2025,Premier League,England,2024-08-24,Aston Villa,Arsenal,0,2,-2,2,0,4,48.8,51.2,2.94,2.62,5,17,2,0
+2024-2025,Premier League,England,2024-08-25,Wolves,Chelsea,2,6,-4,2,4,5,51.5,48.5,0.62,1.96,12,6,8,1
+2024-2025,Premier League,England,2024-08-25,Liverpool,Brentford,2,0,2,1,4,0,49.4,50.6,1.8,1.95,14,10,2,0
+2024-2025,Premier League,England,2024-08-25,Bournemouth,Newcastle,1,1,0,X,2,2,52.2,47.8,1.21,2.7,18,12,2,0
+2024-2025,Premier League,England,2024-08-31,West Ham,Manchester City,1,3,-2,2,2,5,44.6,55.4,2.13,1.54,16,9,4,1
+2024-2025,Premier League,England,2024-08-31,Nottingham Forest,Wolves,1,1,0,X,2,2,39.7,60.3,2.09,2.1,11,4,2,0
+2024-2025,Premier League,England,2024-08-31,Ipswich,Fulham,1,1,0,X,2,2,44.7,55.3,1.21,2.61,10,6,2,0
+2024-2025,Premier League,England,2024-08-31,Everton,Bournemouth,2,3,-1,2,4,5,54.8,45.2,2.37,2.53,4,10,5,1
+2024-2025,Premier League,England,2024-08-31,Arsenal,Brighton,1,1,0,X,2,2,36.0,64.0,2.41,2.45,14,17,2,0
+2024-2025,Premier League,England,2024-08-31,Brentford,Southampton,3,1,2,1,5,2,64.6,35.4,2.85,1.07,5,12,4,1
+2024-2025,Premier League,England,2024-08-31,Leicester,Aston Villa,1,2,-1,2,2,4,40.9,59.1,2.8,0.66,5,12,3,1
+2024-2025,Premier League,England,2024-09-01,Chelsea,Crystal Palace,1,1,0,X,2,2,54.0,46.0,2.85,1.33,9,3,2,0
+2024-2025,Premier League,England,2024-09-01,Newcastle,Tottenham,2,1,1,1,4,2,62.9,37.1,1.26,2.91,15,4,3,1
+2024-2025,Premier League,England,2024-09-01,Manchester United,Liverpool,0,3,-3,2,0,5,49.2,50.8,2.66,1.22,9,7,3,1
+2024-2025,Premier League,England,2024-09-14,Liverpool,Nottingham Forest,0,1,-1,2,0,2,59.5,40.5,2.32,0.99,9,16,1,0
+2024-2025,Premier League,England,2024-09-14,Southampton,Manchester United,0,3,-3,2,0,5,43.2,56.8,1.04,1.76,4,18,3,1
+2024-2025,Premier League,England,2024-09-14,Manchester City,Brentford,2,1,1,1,4,2,46.3,53.7,2.68,2.82,4,9,3,1
+2024-2025,Premier League,England,2024-09-14,Fulham,West Ham,1,1,0,X,2,2,43.1,56.9,1.3,2.06,13,8,2,0
+2024-2025,Premier League,England,2024-09-14,Crystal Palace,Leicester,2,2,0,X,4,4,62.9,37.1,1.87,1.38,8,3,4,1
+2024-2025,Premier League,England,2024-09-14,Brighton,Ipswich,0,0,0,X,0,0,62.4,37.6,2.87,2.97,12,14,0,0
+2024-2025,Premier League,England,2024-09-14,Aston Villa,Everton,3,2,1,1,5,4,37.5,62.5,0.75,2.78,19,11,5,1
+2024-2025,Premier League,England,2024-09-14,Bournemouth,Chelsea,0,1,-1,2,0,2,50.0,50.0,1.42,2.94,4,18,1,0
+2024-2025,Premier League,England,2024-09-15,Wolves,Newcastle,1,2,-1,2,2,4,64.9,35.1,2.16,1.82,7,7,3,1
+2024-2025,Premier League,England,2024-09-15,Tottenham,Arsenal,0,1,-1,2,0,2,53.8,46.2,1.13,1.54,11,4,1,0
+2024-2025,Premier League,England,2024-09-21,Aston Villa,Wolves,3,1,2,1,5,2,59.5,40.5,2.29,1.98,16,13,4,1
+2024-2025,Premier League,England,2024-09-21,West Ham,Chelsea,0,3,-3,2,0,5,48.8,51.2,1.27,2.14,13,5,3,1
+2024-2025,Premier League,England,2024-09-21,Tottenham,Brentford,3,1,2,1,5,2,38.7,61.3,2.57,1.43,10,11,4,1
+2024-2025,Premier League,England,2024-09-21,Southampton,Ipswich,1,1,0,X,2,2,51.1,48.9,1.13,2.87,19,7,2,0
+2024-2025,Premier League,England,2024-09-21,Leicester,Everton,1,1,0,X,2,2,51.9,48.1,0.83,3.0,10,5,2,0
+2024-2025,Premier League,England,2024-09-21,Fulham,Newcastle,3,1,2,1,5,2,38.7,61.3,2.53,2.21,10,15,4,1
+2024-2025,Premier League,England,2024-09-21,Crystal Palace,Manchester United,0,0,0,X,0,0,54.9,45.1,2.64,2.96,12,17,0,0
+2024-2025,Premier League,England,2024-09-21,Liverpool,Bournemouth,3,0,3,1,5,0,40.1,59.9,1.9,2.03,18,16,3,1
+2024-2025,Premier League,England,2024-09-22,Manchester City,Arsenal,2,2,0,X,4,4,47.9,52.1,2.49,1.05,8,11,4,1
+2024-2025,Premier League,England,2024-09-22,Brighton,Nottingham Forest,2,2,0,X,4,4,50.9,49.1,2.17,1.07,3,16,4,1
+2024-2025,Premier League,England,2024-09-28,Wolves,Liverpool,1,2,-1,2,2,4,42.2,57.8,2.61,2.14,4,14,3,1
+2024-2025,Premier League,England,2024-09-28,Nottingham Forest,Fulham,0,1,-1,2,0,2,42.2,57.8,2.99,2.84,14,4,1,0
+2024-2025,Premier League,England,2024-09-28,Newcastle,Manchester City,1,1,0,X,2,2,55.6,44.4,2.59,0.54,16,12,2,0
+2024-2025,Premier League,England,2024-09-28,Everton,Crystal Palace,2,1,1,1,4,2,47.7,52.3,1.34,1.64,10,9,3,1
+2024-2025,Premier League,England,2024-09-28,Chelsea,Brighton,4,2,2,1,5,4,39.2,60.8,1.38,2.24,3,7,6,1
+2024-2025,Premier League,England,2024-09-28,Brentford,West Ham,1,1,0,X,2,2,38.0,62.0,2.81,1.42,6,12,2,0
+2024-2025,Premier League,England,2024-09-28,Arsenal,Leicester,4,2,2,1,5,4,53.7,46.3,1.23,2.2,19,5,6,1
+2024-2025,Premier League,England,2024-09-29,Ipswich,Aston Villa,2,2,0,X,4,4,41.5,58.5,0.84,2.96,15,11,4,1
+2024-2025,Premier League,England,2024-09-29,Manchester United,Tottenham,0,3,-3,2,0,5,38.3,61.7,0.63,1.68,14,7,3,1
+2024-2025,Premier League,England,2024-09-30,Bournemouth,Southampton,3,1,2,1,5,2,64.1,35.9,1.65,2.45,7,17,4,1
+2024-2025,Premier League,England,2024-10-05,Brentford,Wolves,5,3,2,1,5,5,47.0,53.0,1.04,2.93,9,4,8,1
+2024-2025,Premier League,England,2024-10-05,West Ham,Ipswich,4,1,3,1,5,2,59.6,40.4,0.55,2.68,4,7,5,1
+2024-2025,Premier League,England,2024-10-05,Manchester City,Fulham,3,2,1,1,5,4,43.5,56.5,2.7,2.03,15,13,5,1
+2024-2025,Premier League,England,2024-10-05,Leicester,Bournemouth,1,0,1,1,2,0,51.7,48.3,1.66,2.05,4,10,1,0
+2024-2025,Premier League,England,2024-10-05,Everton,Newcastle,0,0,0,X,0,0,47.8,52.2,2.72,0.87,5,17,0,0
+2024-2025,Premier League,England,2024-10-05,Crystal Palace,Liverpool,0,1,-1,2,0,2,47.6,52.4,1.11,2.07,14,8,1,0
+2024-2025,Premier League,England,2024-10-05,Arsenal,Southampton,3,1,2,1,5,2,44.2,55.8,2.94,2.44,4,14,4,1
+2024-2025,Premier League,England,2024-10-06,Chelsea,Nottingham Forest,1,1,0,X,2,2,55.6,44.4,2.98,2.11,8,4,2,0
+2024-2025,Premier League,England,2024-10-06,Brighton,Tottenham,3,2,1,1,5,4,47.0,53.0,1.34,0.54,3,19,5,1
+2024-2025,Premier League,England,2024-10-06,Aston Villa,Manchester United,0,0,0,X,0,0,36.9,63.1,2.0,1.2,17,5,0,0
+2024-2025,Premier League,England,2024-10-19,Bournemouth,Arsenal,2,0,2,1,4,0,54.3,45.7,2.19,2.37,11,19,2,0
+2024-2025,Premier League,England,2024-10-19,Fulham,Aston Villa,1,3,-2,2,2,5,46.7,53.3,0.96,0.73,8,3,4,1
+2024-2025,Premier League,England,2024-10-19,Ipswich,Everton,0,2,-2,2,0,4,60.9,39.1,1.87,1.28,16,12,2,0
+2024-2025,Premier League,England,2024-10-19,Manchester United,Brentford,2,1,1,1,4,2,54.3,45.7,0.75,2.63,11,3,3,1
+2024-2025,Premier League,England,2024-10-19,Newcastle,Brighton,0,1,-1,2,0,2,38.8,61.2,2.37,2.75,9,4,1,0
+2024-2025,Premier League,England,2024-10-19,Southampton,Leicester,2,3,-1,2,4,5,55.1,44.9,0.65,2.49,7,11,5,1
+2024-2025,Premier League,England,2024-10-19,Tottenham,West Ham,4,1,3,1,5,2,38.2,61.8,1.83,2.0,14,10,5,1
+2024-2025,Premier League,England,2024-10-20,Liverpool,Chelsea,2,1,1,1,4,2,61.1,38.9,0.9,1.02,4,3,3,1
+2024-2025,Premier League,England,2024-10-20,Wolves,Manchester City,1,2,-1,2,2,4,40.4,59.6,1.86,2.75,13,3,3,1
+2024-2025,Premier League,England,2024-10-21,Nottingham Forest,Crystal Palace,1,0,1,1,2,0,58.0,42.0,1.89,2.68,7,16,1,0
+2024-2025,Premier League,England,2024-10-25,Leicester,Nottingham Forest,1,3,-2,2,2,5,37.0,63.0,0.74,1.47,3,6,4,1
+2024-2025,Premier League,England,2024-10-26,Aston Villa,Bournemouth,1,1,0,X,2,2,52.3,47.7,0.8,2.99,6,18,2,0
+2024-2025,Premier League,England,2024-10-26,Brentford,Ipswich,4,3,1,1,5,5,63.6,36.4,0.64,0.61,12,9,7,1
+2024-2025,Premier League,England,2024-10-26,Brighton,Wolves,2,2,0,X,4,4,37.2,62.8,1.28,1.29,10,10,4,1
+2024-2025,Premier League,England,2024-10-26,Everton,Fulham,1,1,0,X,2,2,63.4,36.6,1.62,1.1,9,8,2,0
+2024-2025,Premier League,England,2024-10-26,Manchester City,Southampton,1,0,1,1,2,0,48.9,51.1,0.64,1.52,9,8,1,0
+2024-2025,Premier League,England,2024-10-27,Arsenal,Liverpool,2,2,0,X,4,4,54.5,45.5,1.61,1.89,19,6,4,1
+2024-2025,Premier League,England,2024-10-27,Chelsea,Newcastle,2,1,1,1,4,2,38.3,61.7,1.55,2.98,17,9,3,1
+2024-2025,Premier League,England,2024-10-27,Crystal Palace,Tottenham,1,0,1,1,2,0,38.6,61.4,1.49,1.75,14,5,1,0
+2024-2025,Premier League,England,2024-10-27,West Ham,Manchester United,2,1,1,1,4,2,54.0,46.0,0.58,1.18,3,11,3,1
+2024-2025,Premier League,England,2024-11-02,Bournemouth,Manchester City,2,1,1,1,4,2,45.5,54.5,1.61,1.17,12,14,3,1
+2024-2025,Premier League,England,2024-11-02,Ipswich,Leicester,1,1,0,X,2,2,40.0,60.0,0.61,1.2,14,12,2,0
+2024-2025,Premier League,England,2024-11-02,Liverpool,Brighton,2,1,1,1,4,2,35.6,64.4,2.64,1.12,14,7,3,1
+2024-2025,Premier League,England,2024-11-02,Newcastle,Arsenal,1,0,1,1,2,0,44.2,55.8,1.18,2.86,14,7,1,0
+2024-2025,Premier League,England,2024-11-02,Nottingham Forest,West Ham,3,0,3,1,5,0,60.2,39.8,2.16,1.27,19,3,3,1
+2024-2025,Premier League,England,2024-11-02,Southampton,Everton,1,0,1,1,2,0,40.9,59.1,2.76,2.79,5,9,1,0
+2024-2025,Premier League,England,2024-11-02,Wolves,Crystal Palace,2,2,0,X,4,4,40.4,59.6,1.87,2.32,12,14,4,1
+2024-2025,Premier League,England,2024-11-03,Manchester United,Chelsea,1,1,0,X,2,2,51.8,48.2,1.1,1.54,14,13,2,0
+2024-2025,Premier League,England,2024-11-03,Tottenham,Aston Villa,4,1,3,1,5,2,38.4,61.6,0.95,1.14,15,6,5,1
+2024-2025,Premier League,England,2024-11-04,Fulham,Brentford,2,1,1,1,4,2,44.2,55.8,1.65,2.87,9,5,3,1
+2024-2025,La Liga,Spain,2024-08-15,Athletic Bilbao,Getafe,1,1,0,X,2,2,44.7,55.3,1.39,1.62,15,3,2,0
+2024-2025,La Liga,Spain,2024-08-15,Real Betis,Girona,1,1,0,X,2,2,53.6,46.4,2.35,1.17,11,12,2,0
+2024-2025,La Liga,Spain,2024-08-16,Las Palmas,Sevilla,2,2,0,X,4,4,47.6,52.4,2.27,2.52,15,9,4,1
+2024-2025,La Liga,Spain,2024-08-16,Celta Vigo,Alaves,2,1,1,1,4,2,43.7,56.3,2.19,0.58,7,10,3,1
+2024-2025,La Liga,Spain,2024-08-17,Valencia,Barcelona,1,2,-1,2,2,4,63.4,36.6,2.77,2.34,17,7,3,1
+2024-2025,La Liga,Spain,2024-08-17,Osasuna,Leganes,1,1,0,X,2,2,40.9,59.1,2.32,1.55,14,7,2,0
+2024-2025,La Liga,Spain,2024-08-18,Mallorca,Real Madrid,1,1,0,X,2,2,46.6,53.4,2.81,2.33,3,6,2,0
+2024-2025,La Liga,Spain,2024-08-18,Real Sociedad,Vallecano,1,2,-1,2,2,4,42.6,57.4,2.04,1.42,14,6,3,1
+2024-2025,La Liga,Spain,2024-08-19,Villarreal,Atletico Madrid,2,2,0,X,4,4,54.2,45.8,1.82,2.43,8,17,4,1
+2024-2025,La Liga,Spain,2024-08-19,Valladolid,Espanyol,1,0,1,1,2,0,39.2,60.8,1.01,1.34,8,7,1,0
+2024-2025,La Liga,Spain,2024-08-23,Celta Vigo,Valencia,3,1,2,1,5,2,57.0,43.0,1.05,1.56,5,17,4,1
+2024-2025,La Liga,Spain,2024-08-23,Sevilla,Villarreal,1,2,-1,2,2,4,56.8,43.2,2.54,1.88,7,18,3,1
+2024-2025,La Liga,Spain,2024-08-24,Getafe,Vallecano,0,0,0,X,0,0,38.8,61.2,1.82,0.55,16,15,0,0
+2024-2025,La Liga,Spain,2024-08-24,Barcelona,Athletic Bilbao,2,1,1,1,4,2,64.1,35.9,1.44,2.2,15,15,3,1
+2024-2025,La Liga,Spain,2024-08-24,Osasuna,Mallorca,1,0,1,1,2,0,48.5,51.5,2.2,0.82,8,5,1,0
+2024-2025,La Liga,Spain,2024-08-24,Espanyol,Real Sociedad,0,1,-1,2,0,2,61.7,38.3,0.93,1.91,11,16,1,0
+2024-2025,La Liga,Spain,2024-08-25,Atletico Madrid,Girona,3,0,3,1,5,0,63.6,36.4,0.92,1.86,11,14,3,1
+2024-2025,La Liga,Spain,2024-08-25,Real Madrid,Valladolid,3,0,3,1,5,0,44.4,55.6,2.01,0.88,13,16,3,1
+2024-2025,La Liga,Spain,2024-08-25,Alaves,Real Betis,0,0,0,X,0,0,64.0,36.0,0.76,2.22,14,14,0,0
+2024-2025,La Liga,Spain,2024-08-25,Leganes,Las Palmas,2,1,1,1,4,2,44.0,56.0,1.65,2.8,12,19,3,1
+2024-2025,La Liga,Spain,2024-08-26,Villarreal,Celta Vigo,4,3,1,1,5,5,47.0,53.0,0.51,0.75,19,5,7,1
+2024-2025,La Liga,Spain,2024-08-27,Mallorca,Sevilla,0,0,0,X,0,0,42.1,57.9,2.52,0.79,15,8,0,0
+2024-2025,La Liga,Spain,2024-08-27,Vallecano,Barcelona,1,2,-1,2,2,4,61.8,38.2,2.31,2.3,15,16,3,1
+2024-2025,La Liga,Spain,2024-08-28,Athletic Bilbao,Valencia,1,0,1,1,2,0,61.2,38.8,1.14,1.35,7,6,1,0
+2024-2025,La Liga,Spain,2024-08-28,Real Sociedad,Alaves,1,2,-1,2,2,4,62.1,37.9,2.68,1.3,14,14,3,1
+2024-2025,La Liga,Spain,2024-08-28,Valladolid,Leganes,0,0,0,X,0,0,56.0,44.0,1.42,0.6,8,18,0,0
+2024-2025,La Liga,Spain,2024-08-28,Atletico Madrid,Espanyol,0,0,0,X,0,0,57.8,42.2,1.58,1.46,8,7,0,0
+2024-2025,La Liga,Spain,2024-08-29,Girona,Osasuna,4,0,4,1,5,0,55.3,44.7,2.93,1.68,11,17,4,1
+2024-2025,La Liga,Spain,2024-08-29,Las Palmas,Real Madrid,1,1,0,X,2,2,55.3,44.7,2.43,2.18,18,9,2,0
+2024-2025,La Liga,Spain,2024-08-31,Athletic Bilbao,Atletico Madrid,0,1,-1,2,0,2,39.5,60.5,1.46,1.42,16,14,1,0
+2024-2025,La Liga,Spain,2024-08-31,Barcelona,Valladolid,7,0,7,1,5,0,46.7,53.3,0.8,1.53,11,17,7,1
+2024-2025,La Liga,Spain,2024-08-31,Valencia,Villarreal,1,1,0,X,2,2,56.5,43.5,1.33,0.68,6,3,2,0
+2024-2025,La Liga,Spain,2024-08-31,Leganes,Mallorca,0,1,-1,2,0,2,36.6,63.4,1.31,1.71,6,5,1,0
+2024-2025,La Liga,Spain,2024-08-31,Espanyol,Vallecano,2,1,1,1,4,2,63.2,36.8,1.79,2.4,17,8,3,1
+2024-2025,La Liga,Spain,2024-09-01,Getafe,Real Sociedad,0,0,0,X,0,0,46.3,53.7,2.03,2.83,10,3,0,0
+2024-2025,La Liga,Spain,2024-09-01,Alaves,Las Palmas,2,0,2,1,4,0,42.1,57.9,1.7,0.55,10,8,2,0
+2024-2025,La Liga,Spain,2024-09-01,Real Madrid,Real Betis,2,0,2,1,4,0,42.3,57.7,2.34,1.67,6,15,2,0
+2024-2025,La Liga,Spain,2024-09-01,Osasuna,Celta Vigo,3,2,1,1,5,4,43.8,56.2,2.93,1.22,14,11,5,1
+2024-2025,La Liga,Spain,2024-09-01,Sevilla,Girona,0,2,-2,2,0,4,56.5,43.5,2.13,2.22,17,18,2,0
+2024-2025,La Liga,Spain,2024-09-13,Real Betis,Leganes,2,0,2,1,4,0,37.8,62.2,2.32,2.51,6,15,2,0
+2024-2025,La Liga,Spain,2024-09-14,Mallorca,Villarreal,1,2,-1,2,2,4,48.9,51.1,2.93,0.75,14,17,3,1
+2024-2025,La Liga,Spain,2024-09-14,Sevilla,Getafe,1,0,1,1,2,0,36.9,63.1,1.58,1.52,4,16,1,0
+2024-2025,La Liga,Spain,2024-09-14,Real Sociedad,Real Madrid,0,2,-2,2,0,4,44.7,55.3,1.52,2.72,19,17,2,0
+2024-2025,La Liga,Spain,2024-09-14,Espanyol,Alaves,3,2,1,1,5,4,42.6,57.4,2.79,0.98,11,4,5,1
+2024-2025,La Liga,Spain,2024-09-15,Atletico Madrid,Valencia,3,0,3,1,5,0,63.7,36.3,1.27,1.59,15,8,3,1
+2024-2025,La Liga,Spain,2024-09-15,Celta Vigo,Valladolid,3,1,2,1,5,2,43.7,56.3,1.64,2.49,15,13,4,1
+2024-2025,La Liga,Spain,2024-09-15,Las Palmas,Athletic Bilbao,2,3,-1,2,4,5,38.4,61.6,0.95,2.53,14,17,5,1
+2024-2025,La Liga,Spain,2024-09-15,Girona,Barcelona,1,4,-3,2,2,5,62.3,37.7,0.81,2.48,17,5,5,1
+2024-2025,La Liga,Spain,2024-09-16,Vallecano,Osasuna,3,1,2,1,5,2,61.1,38.9,0.97,1.15,5,4,4,1
+2024-2025,La Liga,Spain,2024-09-17,Mallorca,Real Sociedad,1,0,1,1,2,0,38.8,61.2,1.63,0.57,17,8,1,0
+2024-2025,La Liga,Spain,2024-09-18,Real Betis,Getafe,2,1,1,1,4,2,58.2,41.8,1.24,0.67,9,8,3,1
+2024-2025,La Liga,Spain,2024-09-19,Leganes,Athletic Bilbao,0,2,-2,2,0,4,60.4,39.6,2.79,0.81,4,7,2,0
+2024-2025,La Liga,Spain,2024-09-20,Alaves,Sevilla,2,1,1,1,4,2,41.4,58.6,2.38,1.57,9,19,3,1
+2024-2025,La Liga,Spain,2024-09-21,Valencia,Girona,2,0,2,1,4,0,47.4,52.6,1.31,1.16,12,13,2,0
+2024-2025,La Liga,Spain,2024-09-21,Valladolid,Real Sociedad,0,0,0,X,0,0,62.6,37.4,0.83,2.97,10,11,0,0
+2024-2025,La Liga,Spain,2024-09-21,Osasuna,Las Palmas,2,1,1,1,4,2,54.9,45.1,1.55,1.99,17,3,3,1
+2024-2025,La Liga,Spain,2024-09-21,Real Madrid,Espanyol,4,1,3,1,5,2,39.6,60.4,1.62,1.35,7,15,5,1
+2024-2025,La Liga,Spain,2024-09-22,Athletic Bilbao,Celta Vigo,3,1,2,1,5,2,49.2,50.8,2.91,2.35,8,12,4,1
+2024-2025,La Liga,Spain,2024-09-22,Getafe,Leganes,1,1,0,X,2,2,63.7,36.3,1.01,1.88,10,8,2,0
+2024-2025,La Liga,Spain,2024-09-22,Vallecano,Atletico Madrid,1,1,0,X,2,2,43.8,56.2,0.63,2.54,10,15,2,0
+2024-2025,La Liga,Spain,2024-09-22,Villarreal,Barcelona,1,5,-4,2,2,5,42.7,57.3,0.97,2.11,18,13,6,1
+2024-2025,La Liga,Spain,2024-09-23,Real Betis,Mallorca,1,2,-1,2,2,4,48.6,51.4,1.21,2.74,17,5,3,1
+2024-2025,La Liga,Spain,2024-09-24,Sevilla,Valladolid,2,1,1,1,4,2,39.8,60.2,0.71,2.65,13,13,3,1
+2024-2025,La Liga,Spain,2024-09-24,Valencia,Osasuna,0,0,0,X,0,0,63.5,36.5,1.92,1.44,4,17,0,0
+2024-2025,La Liga,Spain,2024-09-24,Real Madrid,Alaves,3,2,1,1,5,4,43.0,57.0,2.11,0.79,16,10,5,1
+2024-2025,La Liga,Spain,2024-09-25,Barcelona,Getafe,1,0,1,1,2,0,38.6,61.4,2.71,2.93,18,5,1,0
+2024-2025,La Liga,Spain,2024-09-25,Girona,Vallecano,0,0,0,X,0,0,54.8,45.2,0.83,1.06,5,18,0,0
+2024-2025,La Liga,Spain,2024-09-26,Celta Vigo,Atletico Madrid,0,1,-1,2,0,2,60.7,39.3,2.97,2.33,11,10,1,0
+2024-2025,La Liga,Spain,2024-09-26,Las Palmas,Real Betis,1,1,0,X,2,2,35.9,64.1,0.55,1.61,5,18,2,0
+2024-2025,La Liga,Spain,2024-09-26,Espanyol,Villarreal,1,2,-1,2,2,4,48.9,51.1,2.06,2.11,6,6,3,1
+2024-2025,La Liga,Spain,2024-09-27,Valladolid,Mallorca,1,2,-1,2,2,4,42.8,57.2,1.03,1.01,6,10,3,1
+2024-2025,La Liga,Spain,2024-09-28,Real Sociedad,Valencia,3,0,3,1,5,0,44.9,55.1,2.3,2.08,5,6,3,1
+2024-2025,La Liga,Spain,2024-09-28,Osasuna,Barcelona,4,2,2,1,5,4,51.2,48.8,0.54,2.89,15,5,6,1
+2024-2025,La Liga,Spain,2024-09-28,Getafe,Alaves,2,0,2,1,4,0,46.5,53.5,0.59,0.75,11,16,2,0
+2024-2025,La Liga,Spain,2024-09-28,Vallecano,Leganes,1,1,0,X,2,2,58.7,41.3,1.06,1.43,19,12,2,0
+2024-2025,La Liga,Spain,2024-09-29,Athletic Bilbao,Sevilla,1,1,0,X,2,2,40.0,60.0,0.61,2.73,6,5,2,0
+2024-2025,La Liga,Spain,2024-09-29,Atletico Madrid,Real Madrid,1,1,0,X,2,2,47.6,52.4,1.93,0.96,7,14,2,0
+2024-2025,La Liga,Spain,2024-09-29,Celta Vigo,Girona,1,1,0,X,2,2,44.0,56.0,1.98,0.51,4,14,2,0
+2024-2025,La Liga,Spain,2024-09-29,Real Betis,Espanyol,1,0,1,1,2,0,37.2,62.8,0.71,0.52,16,12,1,0
+2024-2025,La Liga,Spain,2024-09-30,Villarreal,Las Palmas,3,1,2,1,5,2,55.9,44.1,1.08,1.58,9,14,4,1
+2024-2025,La Liga,Spain,2024-10-04,Leganes,Valencia,0,0,0,X,0,0,52.5,47.5,2.35,1.49,9,14,0,0
+2024-2025,La Liga,Spain,2024-10-05,Getafe,Osasuna,1,1,0,X,2,2,36.2,63.8,1.74,1.0,13,19,2,0
+2024-2025,La Liga,Spain,2024-10-05,Real Madrid,Villarreal,2,0,2,1,4,0,50.6,49.4,2.77,1.84,4,5,2,0
+2024-2025,La Liga,Spain,2024-10-05,Las Palmas,Celta Vigo,0,1,-1,2,0,2,37.3,62.7,0.72,1.1,19,6,1,0
+2024-2025,La Liga,Spain,2024-10-05,Valladolid,Vallecano,1,2,-1,2,2,4,43.6,56.4,1.32,1.58,17,5,3,1
+2024-2025,La Liga,Spain,2024-10-05,Espanyol,Mallorca,2,1,1,1,4,2,38.9,61.1,2.4,1.36,14,14,3,1
+2024-2025,La Liga,Spain,2024-10-06,Alaves,Barcelona,0,3,-3,2,0,5,54.1,45.9,1.07,1.58,6,10,3,1
+2024-2025,La Liga,Spain,2024-10-06,Girona,Athletic Bilbao,2,1,1,1,4,2,53.2,46.8,1.21,2.23,12,14,3,1
+2024-2025,La Liga,Spain,2024-10-06,Real Sociedad,Atletico Madrid,1,1,0,X,2,2,50.3,49.7,2.33,2.81,6,4,2,0
+2024-2025,La Liga,Spain,2024-10-06,Sevilla,Real Betis,1,0,1,1,2,0,43.2,56.8,1.05,2.27,13,4,1,0
+2024-2025,La Liga,Spain,2024-10-18,Alaves,Valladolid,2,3,-1,2,4,5,58.7,41.3,2.71,1.51,8,19,5,1
+2024-2025,La Liga,Spain,2024-10-19,Celta Vigo,Real Madrid,1,2,-1,2,2,4,49.6,50.4,2.94,2.34,9,10,3,1
+2024-2025,La Liga,Spain,2024-10-19,Girona,Real Sociedad,0,1,-1,2,0,2,47.1,52.9,1.34,1.17,7,7,1,0
+2024-2025,La Liga,Spain,2024-10-19,Osasuna,Real Betis,1,2,-1,2,2,4,61.0,39.0,1.89,0.73,6,5,3,1
+2024-2025,La Liga,Spain,2024-10-19,Athletic Bilbao,Espanyol,4,1,3,1,5,2,52.3,47.7,1.41,2.36,4,8,5,1
+2024-2025,La Liga,Spain,2024-10-20,Atletico Madrid,Leganes,3,1,2,1,5,2,61.4,38.6,2.6,2.18,8,11,4,1
+2024-2025,La Liga,Spain,2024-10-20,Barcelona,Sevilla,5,1,4,1,5,2,39.4,60.6,2.1,1.79,7,4,6,1
+2024-2025,La Liga,Spain,2024-10-20,Mallorca,Vallecano,1,0,1,1,2,0,42.6,57.4,1.46,0.73,4,6,1,0
+2024-2025,La Liga,Spain,2024-10-20,Villarreal,Getafe,1,1,0,X,2,2,48.1,51.9,0.61,0.83,17,11,2,0
+2024-2025,La Liga,Spain,2024-10-21,Valencia,Las Palmas,2,3,-1,2,4,5,52.7,47.3,2.45,1.27,13,19,5,1
+2024-2025,Serie A,Italy,2024-08-17,Empoli,Monza,0,0,0,X,0,0,44.2,55.8,2.4,2.94,11,17,0,0
+2024-2025,Serie A,Italy,2024-08-17,Genoa,Inter Milan,2,2,0,X,4,4,44.8,55.2,2.59,2.66,9,4,4,1
+2024-2025,Serie A,Italy,2024-08-17,AC Milan,Torino,2,2,0,X,4,4,51.1,48.9,0.72,1.88,9,7,4,1
+2024-2025,Serie A,Italy,2024-08-17,Parma Calcio 1913,Fiorentina,1,1,0,X,2,2,56.9,43.1,2.01,1.39,17,13,2,0
+2024-2025,Serie A,Italy,2024-08-18,Bologna,Udinese,1,1,0,X,2,2,36.2,63.8,2.84,1.03,8,15,2,0
+2024-2025,Serie A,Italy,2024-08-18,Cagliari,Roma,0,0,0,X,0,0,58.3,41.7,0.5,2.94,7,11,0,0
+2024-2025,Serie A,Italy,2024-08-18,Verona,Napoli,3,0,3,1,5,0,39.0,61.0,0.78,0.65,3,9,3,1
+2024-2025,Serie A,Italy,2024-08-18,Lazio,Venezia,3,1,2,1,5,2,50.9,49.1,2.97,1.99,16,3,4,1
+2024-2025,Serie A,Italy,2024-08-19,Juventus,Como,3,0,3,1,5,0,40.1,59.9,2.09,1.12,18,6,3,1
+2024-2025,Serie A,Italy,2024-08-19,Lecce,Atalanta,0,4,-4,2,0,5,44.2,55.8,1.42,1.06,14,6,4,1
+2024-2025,Serie A,Italy,2024-08-24,Inter Milan,Lecce,2,0,2,1,4,0,58.9,41.1,0.95,1.4,3,6,2,0
+2024-2025,Serie A,Italy,2024-08-24,Monza,Genoa,0,1,-1,2,0,2,47.8,52.2,0.78,2.04,16,5,1,0
+2024-2025,Serie A,Italy,2024-08-24,Parma Calcio 1913,AC Milan,2,1,1,1,4,2,41.4,58.6,2.56,1.37,17,19,3,1
+2024-2025,Serie A,Italy,2024-08-24,Udinese,Lazio,2,1,1,1,4,2,45.0,55.0,1.68,2.09,5,13,3,1
+2024-2025,Serie A,Italy,2024-08-25,Fiorentina,Venezia,0,0,0,X,0,0,56.1,43.9,2.27,2.58,3,18,0,0
+2024-2025,Serie A,Italy,2024-08-25,Napoli,Bologna,3,0,3,1,5,0,40.8,59.2,1.56,1.61,14,7,3,1
+2024-2025,Serie A,Italy,2024-08-25,Roma,Empoli,1,2,-1,2,2,4,63.2,36.8,0.73,1.93,18,16,3,1
+2024-2025,Serie A,Italy,2024-08-25,Torino,Atalanta,2,1,1,1,4,2,42.0,58.0,2.02,2.49,10,10,3,1
+2024-2025,Serie A,Italy,2024-08-26,Cagliari,Como,1,1,0,X,2,2,43.7,56.3,0.89,0.71,8,9,2,0
+2024-2025,Serie A,Italy,2024-08-26,Verona,Juventus,0,3,-3,2,0,5,50.0,50.0,0.89,1.31,5,9,3,1
+2024-2025,Serie A,Italy,2024-08-30,Inter Milan,Atalanta,4,0,4,1,5,0,44.3,55.7,1.46,1.43,11,16,4,1
+2024-2025,Serie A,Italy,2024-08-30,Venezia,Torino,0,1,-1,2,0,2,50.4,49.6,2.33,1.76,5,18,1,0
+2024-2025,Serie A,Italy,2024-08-31,Bologna,Empoli,1,1,0,X,2,2,62.5,37.5,1.17,2.26,14,3,2,0
+2024-2025,Serie A,Italy,2024-08-31,Lazio,AC Milan,2,2,0,X,4,4,54.1,45.9,0.54,1.46,3,4,4,1
+2024-2025,Serie A,Italy,2024-08-31,Lecce,Cagliari,1,0,1,1,2,0,58.0,42.0,2.25,0.58,15,14,1,0
+2024-2025,Serie A,Italy,2024-08-31,Napoli,Parma Calcio 1913,2,1,1,1,4,2,47.4,52.6,2.29,0.61,18,19,3,1
+2024-2025,Serie A,Italy,2024-09-01,Fiorentina,Monza,2,2,0,X,4,4,62.6,37.4,1.26,0.82,13,8,4,1
+2024-2025,Serie A,Italy,2024-09-01,Genoa,Verona,0,2,-2,2,0,4,58.3,41.7,1.3,2.96,15,18,2,0
+2024-2025,Serie A,Italy,2024-09-01,Juventus,Roma,0,0,0,X,0,0,55.4,44.6,2.35,0.51,8,11,0,0
+2024-2025,Serie A,Italy,2024-09-01,Udinese,Como,1,0,1,1,2,0,56.3,43.7,2.61,2.3,4,15,1,0
+2024-2025,Serie A,Italy,2024-09-14,Como,Bologna,2,2,0,X,4,4,61.6,38.4,1.45,1.59,5,8,4,1
+2024-2025,Serie A,Italy,2024-09-14,Empoli,Juventus,0,0,0,X,0,0,62.1,37.9,1.61,1.95,13,3,0,0
+2024-2025,Serie A,Italy,2024-09-14,AC Milan,Venezia,4,0,4,1,5,0,49.8,50.2,1.17,2.09,9,18,4,1
+2024-2025,Serie A,Italy,2024-09-15,Atalanta,Fiorentina,3,2,1,1,5,4,62.0,38.0,0.65,2.72,12,6,5,1
+2024-2025,Serie A,Italy,2024-09-15,Cagliari,Napoli,0,4,-4,2,0,5,53.5,46.5,2.42,2.8,7,3,4,1
+2024-2025,Serie A,Italy,2024-09-15,Genoa,Roma,1,1,0,X,2,2,64.2,35.8,0.61,2.4,17,16,2,0
+2024-2025,Serie A,Italy,2024-09-15,Monza,Inter Milan,1,1,0,X,2,2,40.8,59.2,2.95,2.19,12,9,2,0
+2024-2025,Serie A,Italy,2024-09-15,Torino,Lecce,0,0,0,X,0,0,40.7,59.3,0.97,1.31,13,19,0,0
+2024-2025,Serie A,Italy,2024-09-16,Lazio,Verona,2,1,1,1,4,2,55.4,44.6,2.87,1.64,7,13,3,1
+2024-2025,Serie A,Italy,2024-09-16,Parma Calcio 1913,Udinese,2,3,-1,2,4,5,41.1,58.9,2.35,0.91,13,6,5,1
+2024-2025,Serie A,Italy,2024-09-20,Cagliari,Empoli,0,2,-2,2,0,4,39.4,60.6,2.42,0.52,18,6,2,0
+2024-2025,Serie A,Italy,2024-09-20,Verona,Torino,2,3,-1,2,4,5,51.5,48.5,2.7,2.78,9,4,5,1
+2024-2025,Serie A,Italy,2024-09-21,Juventus,Napoli,0,0,0,X,0,0,46.2,53.8,0.73,1.82,18,16,0,0
+2024-2025,Serie A,Italy,2024-09-21,Lecce,Parma Calcio 1913,2,2,0,X,4,4,61.3,38.7,2.76,2.31,17,11,4,1
+2024-2025,Serie A,Italy,2024-09-21,Venezia,Genoa,2,0,2,1,4,0,44.3,55.7,0.65,2.03,5,19,2,0
+2024-2025,Serie A,Italy,2024-09-22,Fiorentina,Lazio,2,1,1,1,4,2,49.3,50.7,0.88,2.18,19,7,3,1
+2024-2025,Serie A,Italy,2024-09-22,Inter Milan,AC Milan,1,2,-1,2,2,4,51.2,48.8,1.76,1.43,19,12,3,1
+2024-2025,Serie A,Italy,2024-09-22,Monza,Bologna,1,2,-1,2,2,4,49.8,50.2,0.83,2.8,11,8,3,1
+2024-2025,Serie A,Italy,2024-09-22,Roma,Udinese,3,0,3,1,5,0,50.3,49.7,2.39,1.14,17,4,3,1
+2024-2025,Serie A,Italy,2024-09-24,Atalanta,Como,2,3,-1,2,4,5,36.9,63.1,0.57,2.97,10,16,5,1
+2024-2025,Serie A,Italy,2024-09-27,AC Milan,Lecce,3,0,3,1,5,0,46.4,53.6,0.69,2.93,6,19,3,1
+2024-2025,Serie A,Italy,2024-09-28,Bologna,Atalanta,1,1,0,X,2,2,37.0,63.0,2.35,1.92,18,9,2,0
+2024-2025,Serie A,Italy,2024-09-28,Genoa,Juventus,0,3,-3,2,0,5,49.2,50.8,1.2,2.28,11,19,3,1
+2024-2025,Serie A,Italy,2024-09-28,Udinese,Inter Milan,2,3,-1,2,4,5,49.5,50.5,2.42,1.87,12,3,5,1
+2024-2025,Serie A,Italy,2024-09-29,Como,Verona,3,2,1,1,5,4,37.8,62.2,2.82,2.2,6,15,5,1
+2024-2025,Serie A,Italy,2024-09-29,Empoli,Fiorentina,0,0,0,X,0,0,39.3,60.7,2.84,2.39,18,3,0,0
+2024-2025,Serie A,Italy,2024-09-29,Napoli,Monza,2,0,2,1,4,0,50.4,49.6,0.68,0.93,10,18,2,0
+2024-2025,Serie A,Italy,2024-09-29,Roma,Venezia,2,1,1,1,4,2,51.0,49.0,2.49,0.58,4,5,3,1
+2024-2025,Serie A,Italy,2024-09-29,Torino,Lazio,2,3,-1,2,4,5,44.2,55.8,1.83,2.78,10,13,5,1
+2024-2025,Serie A,Italy,2024-09-30,Parma Calcio 1913,Cagliari,2,3,-1,2,4,5,44.1,55.9,1.46,2.52,6,13,5,1
+2024-2025,Serie A,Italy,2024-10-04,Verona,Venezia,2,1,1,1,4,2,42.2,57.8,1.28,0.55,3,17,3,1
+2024-2025,Serie A,Italy,2024-10-04,Napoli,Como,3,1,2,1,5,2,50.7,49.3,1.25,0.51,5,12,4,1
+2024-2025,Serie A,Italy,2024-10-05,Atalanta,Genoa,5,1,4,1,5,2,35.7,64.3,0.66,0.56,5,9,6,1
+2024-2025,Serie A,Italy,2024-10-05,Inter Milan,Torino,3,2,1,1,5,4,49.8,50.2,0.89,1.0,9,3,5,1
+2024-2025,Serie A,Italy,2024-10-05,Udinese,Lecce,1,0,1,1,2,0,61.9,38.1,1.56,0.57,5,4,1,0
+2024-2025,Serie A,Italy,2024-10-06,Bologna,Parma Calcio 1913,0,0,0,X,0,0,35.2,64.8,2.19,1.53,5,18,0,0
+2024-2025,Serie A,Italy,2024-10-06,Fiorentina,AC Milan,2,1,1,1,4,2,36.1,63.9,1.87,1.15,3,13,3,1
+2024-2025,Serie A,Italy,2024-10-06,Juventus,Cagliari,1,1,0,X,2,2,59.0,41.0,2.75,0.59,8,6,2,0
+2024-2025,Serie A,Italy,2024-10-06,Lazio,Empoli,2,1,1,1,4,2,54.6,45.4,2.45,1.53,4,8,3,1
+2024-2025,Serie A,Italy,2024-10-06,Monza,Roma,1,1,0,X,2,2,56.4,43.6,1.21,2.6,10,4,2,0
+2024-2025,Serie A,Italy,2024-10-19,Como,Parma Calcio 1913,1,1,0,X,2,2,60.6,39.4,0.67,2.73,6,4,2,0
+2024-2025,Serie A,Italy,2024-10-19,Genoa,Bologna,2,2,0,X,4,4,54.7,45.3,0.84,2.74,18,13,4,1
+2024-2025,Serie A,Italy,2024-10-19,Juventus,Lazio,1,0,1,1,2,0,56.2,43.8,2.14,2.18,5,6,1,0
+2024-2025,Serie A,Italy,2024-10-19,AC Milan,Udinese,1,0,1,1,2,0,48.7,51.3,2.47,1.35,16,19,1,0
+2024-2025,Serie A,Italy,2024-10-20,Cagliari,Torino,3,2,1,1,5,4,53.6,46.4,2.27,0.84,7,9,5,1
+2024-2025,Serie A,Italy,2024-10-20,Empoli,Napoli,0,1,-1,2,0,2,54.9,45.1,2.58,0.87,3,16,1,0
+2024-2025,Serie A,Italy,2024-10-20,Lecce,Fiorentina,0,6,-6,2,0,5,63.7,36.3,0.71,0.92,8,4,6,1
+2024-2025,Serie A,Italy,2024-10-20,Roma,Inter Milan,0,1,-1,2,0,2,48.5,51.5,0.82,1.54,13,4,1,0
+2024-2025,Serie A,Italy,2024-10-20,Venezia,Atalanta,0,2,-2,2,0,4,60.2,39.8,0.72,2.79,5,15,2,0
+2024-2025,Serie A,Italy,2024-10-21,Verona,Monza,0,3,-3,2,0,5,58.0,42.0,0.84,0.65,17,15,3,1
+2024-2025,Serie A,Italy,2024-10-25,Torino,Como,1,0,1,1,2,0,61.6,38.4,0.7,2.44,8,8,1,0
+2024-2025,Serie A,Italy,2024-10-25,Udinese,Cagliari,2,0,2,1,4,0,49.2,50.8,1.8,2.33,7,8,2,0
+2024-2025,Serie A,Italy,2024-10-26,Atalanta,Verona,6,1,5,1,5,2,52.0,48.0,0.61,0.72,6,11,7,1
+2024-2025,Serie A,Italy,2024-10-26,Napoli,Lecce,1,0,1,1,2,0,63.9,36.1,2.67,2.41,18,6,1,0
+2024-2025,Serie A,Italy,2024-10-27,Fiorentina,Roma,5,1,4,1,5,2,41.3,58.7,1.34,2.29,11,13,6,1
+2024-2025,Serie A,Italy,2024-10-27,Inter Milan,Juventus,4,4,0,X,5,5,40.1,59.9,1.93,2.93,4,18,8,1
+2024-2025,Serie A,Italy,2024-10-27,Lazio,Genoa,3,0,3,1,5,0,55.6,44.4,0.73,2.93,15,12,3,1
+2024-2025,Serie A,Italy,2024-10-27,Monza,Venezia,2,2,0,X,4,4,44.8,55.2,2.15,2.95,4,9,4,1
+2024-2025,Serie A,Italy,2024-10-27,Parma Calcio 1913,Empoli,1,1,0,X,2,2,37.0,63.0,1.59,0.92,8,12,2,0
+2024-2025,Serie A,Italy,2024-10-29,Cagliari,Bologna,0,2,-2,2,0,4,35.9,64.1,2.02,1.34,13,18,2,0
+2024-2025,Serie A,Italy,2024-10-29,Lecce,Verona,1,0,1,1,2,0,47.5,52.5,2.52,1.75,6,12,1,0
+2024-2025,Serie A,Italy,2024-10-29,AC Milan,Napoli,0,2,-2,2,0,4,60.5,39.5,0.57,2.64,19,4,2,0
+2024-2025,Serie A,Italy,2024-10-30,Atalanta,Monza,2,0,2,1,4,0,46.6,53.4,1.62,1.37,7,7,2,0
+2024-2025,Serie A,Italy,2024-10-30,Empoli,Inter Milan,0,3,-3,2,0,5,38.9,61.1,1.98,1.45,18,13,3,1
+2024-2025,Serie A,Italy,2024-10-30,Juventus,Parma Calcio 1913,2,2,0,X,4,4,51.9,48.1,1.08,1.28,11,16,4,1
+2024-2025,Serie A,Italy,2024-10-30,Venezia,Udinese,3,2,1,1,5,4,43.9,56.1,0.72,1.47,18,5,5,1
+2024-2025,Serie A,Italy,2024-10-31,Como,Lazio,1,5,-4,2,2,5,55.0,45.0,2.75,1.42,16,3,6,1
+2024-2025,Serie A,Italy,2024-10-31,Genoa,Fiorentina,0,1,-1,2,0,2,61.5,38.5,1.97,1.5,11,8,1,0
+2024-2025,Serie A,Italy,2024-10-31,Roma,Torino,1,0,1,1,2,0,57.4,42.6,0.7,1.28,15,17,1,0
+2024-2025,Serie A,Italy,2024-11-02,Bologna,Lecce,1,0,1,1,2,0,63.0,37.0,2.12,2.7,8,14,1,0
+2024-2025,Bundesliga,Germany,2024-08-23,Borussia Mönchengladbach,Bayer Leverkusen,2,3,-1,2,4,5,53.7,46.3,0.53,0.97,19,8,5,1
+2024-2025,Bundesliga,Germany,2024-08-24,RB Leipzig,Bochum,1,0,1,1,2,0,54.0,46.0,2.88,2.88,5,7,1,0
+2024-2025,Bundesliga,Germany,2024-08-24,Borussia Dortmund,Eintracht Frankfurt,2,0,2,1,4,0,58.5,41.5,1.29,2.59,5,5,2,0
+2024-2025,Bundesliga,Germany,2024-08-24,Hoffenheim,Holstein Kiel,3,2,1,1,5,4,64.0,36.0,0.89,1.5,16,3,5,1
+2024-2025,Bundesliga,Germany,2024-08-24,Freiburg,Stuttgart,3,1,2,1,5,2,53.6,46.4,2.07,1.78,3,5,4,1
+2024-2025,Bundesliga,Germany,2024-08-24,FC Augsburg,Werder Bremen,2,2,0,X,4,4,53.1,46.9,2.98,2.35,17,6,4,1
+2024-2025,Bundesliga,Germany,2024-08-24,Mainz,Union Berlin,1,1,0,X,2,2,35.5,64.5,1.18,2.68,16,15,2,0
+2024-2025,Bundesliga,Germany,2024-08-25,Wolfsburg,Bayern Munich,2,3,-1,2,4,5,57.9,42.1,1.79,1.81,9,19,5,1
+2024-2025,Bundesliga,Germany,2024-08-25,St Pauli,FC Heidenheim,0,2,-2,2,0,4,42.7,57.3,2.28,1.8,9,10,2,0
+2024-2025,Bundesliga,Germany,2024-08-30,Union Berlin,St Pauli,1,0,1,1,2,0,49.3,50.7,1.81,1.51,9,14,1,0
+2024-2025,Bundesliga,Germany,2024-08-31,Bayer Leverkusen,RB Leipzig,2,3,-1,2,4,5,38.3,61.7,1.11,1.86,9,14,5,1
+2024-2025,Bundesliga,Germany,2024-08-31,Stuttgart,Mainz,3,3,0,X,5,5,49.5,50.5,1.14,1.78,11,11,6,1
+2024-2025,Bundesliga,Germany,2024-08-31,Eintracht Frankfurt,Hoffenheim,3,1,2,1,5,2,47.8,52.2,2.8,2.62,12,10,4,1
+2024-2025,Bundesliga,Germany,2024-08-31,Werder Bremen,Borussia Dortmund,0,0,0,X,0,0,57.7,42.3,0.87,0.82,11,6,0,0
+2024-2025,Bundesliga,Germany,2024-08-31,Bochum,Borussia Mönchengladbach,0,2,-2,2,0,4,60.9,39.1,1.5,2.59,14,11,2,0
+2024-2025,Bundesliga,Germany,2024-08-31,Holstein Kiel,Wolfsburg,0,2,-2,2,0,4,62.3,37.7,1.7,1.11,8,9,2,0
+2024-2025,Bundesliga,Germany,2024-09-01,Bayern Munich,Freiburg,2,0,2,1,4,0,45.2,54.8,0.65,2.22,8,15,2,0
+2024-2025,Bundesliga,Germany,2024-09-01,FC Heidenheim,FC Augsburg,4,0,4,1,5,0,52.6,47.4,1.03,2.46,3,14,4,1
+2024-2025,Bundesliga,Germany,2024-09-13,Borussia Dortmund,FC Heidenheim,4,2,2,1,5,4,43.6,56.4,2.6,1.18,11,8,6,1
+2024-2025,Bundesliga,Germany,2024-09-14,RB Leipzig,Union Berlin,0,0,0,X,0,0,54.0,46.0,1.88,2.48,7,12,0,0
+2024-2025,Bundesliga,Germany,2024-09-14,Hoffenheim,Bayer Leverkusen,1,4,-3,2,2,5,53.4,46.6,2.45,1.26,8,5,5,1
+2024-2025,Bundesliga,Germany,2024-09-14,Freiburg,Bochum,2,1,1,1,4,2,51.7,48.3,0.97,1.62,8,5,3,1
+2024-2025,Bundesliga,Germany,2024-09-14,Wolfsburg,Eintracht Frankfurt,1,2,-1,2,2,4,55.3,44.7,2.41,0.66,14,4,3,1
+2024-2025,Bundesliga,Germany,2024-09-14,Borussia Mönchengladbach,Stuttgart,1,3,-2,2,2,5,61.8,38.2,1.76,2.41,11,15,4,1
+2024-2025,Bundesliga,Germany,2024-09-14,Holstein Kiel,Bayern Munich,1,6,-5,2,2,5,47.1,52.9,1.66,2.14,9,12,7,1
+2024-2025,Bundesliga,Germany,2024-09-15,FC Augsburg,St Pauli,3,1,2,1,5,2,54.1,45.9,0.75,2.77,18,6,4,1
+2024-2025,Bundesliga,Germany,2024-09-15,Mainz,Werder Bremen,1,2,-1,2,2,4,38.7,61.3,2.55,1.24,19,3,3,1
+2024-2025,Bundesliga,Germany,2024-09-20,FC Augsburg,Mainz,2,3,-1,2,4,5,57.3,42.7,0.93,0.62,7,10,5,1
+2024-2025,Bundesliga,Germany,2024-09-21,Eintracht Frankfurt,Borussia Mönchengladbach,2,0,2,1,4,0,53.2,46.8,2.5,0.96,12,16,2,0
+2024-2025,Bundesliga,Germany,2024-09-21,FC Heidenheim,Freiburg,0,3,-3,2,0,5,42.3,57.7,2.33,1.32,17,12,3,1
+2024-2025,Bundesliga,Germany,2024-09-21,Werder Bremen,Bayern Munich,0,5,-5,2,0,5,50.3,49.7,0.67,2.27,16,12,5,1
+2024-2025,Bundesliga,Germany,2024-09-21,Union Berlin,Hoffenheim,2,1,1,1,4,2,45.3,54.7,2.31,1.1,15,7,3,1
+2024-2025,Bundesliga,Germany,2024-09-21,Bochum,Holstein Kiel,2,2,0,X,4,4,38.9,61.1,1.86,0.6,3,7,4,1
+2024-2025,Bundesliga,Germany,2024-09-22,Bayer Leverkusen,Wolfsburg,4,3,1,1,5,5,47.7,52.3,1.17,2.9,4,13,7,1
+2024-2025,Bundesliga,Germany,2024-09-22,Stuttgart,Borussia Dortmund,5,1,4,1,5,2,40.4,59.6,0.8,1.37,15,18,6,1
+2024-2025,Bundesliga,Germany,2024-09-22,St Pauli,RB Leipzig,0,0,0,X,0,0,59.0,41.0,1.09,0.66,19,12,0,0
+2024-2025,Bundesliga,Germany,2024-09-27,Borussia Dortmund,Bochum,4,2,2,1,5,4,36.3,63.7,1.83,2.18,3,6,6,1
+2024-2025,Bundesliga,Germany,2024-09-28,Bayern Munich,Bayer Leverkusen,1,1,0,X,2,2,54.3,45.7,0.87,1.21,3,9,2,0
+2024-2025,Bundesliga,Germany,2024-09-28,RB Leipzig,FC Augsburg,4,0,4,1,5,0,36.9,63.1,1.97,1.53,15,19,4,1
+2024-2025,Bundesliga,Germany,2024-09-28,Freiburg,St Pauli,0,3,-3,2,0,5,44.3,55.7,0.81,2.59,6,3,3,1
+2024-2025,Bundesliga,Germany,2024-09-28,Wolfsburg,Stuttgart,2,2,0,X,4,4,41.4,58.6,0.81,1.3,3,9,4,1
+2024-2025,Bundesliga,Germany,2024-09-28,Mainz,FC Heidenheim,0,2,-2,2,0,4,59.0,41.0,0.52,2.38,7,7,2,0
+2024-2025,Bundesliga,Germany,2024-09-28,Borussia Mönchengladbach,Union Berlin,1,0,1,1,2,0,63.8,36.2,2.19,1.53,4,7,1,0
+2024-2025,Bundesliga,Germany,2024-09-29,Hoffenheim,Werder Bremen,3,4,-1,2,5,5,62.3,37.7,1.83,2.91,17,3,7,1
+2024-2025,Bundesliga,Germany,2024-09-29,Holstein Kiel,Eintracht Frankfurt,2,4,-2,2,4,5,36.6,63.4,0.53,1.73,12,14,6,1
+2024-2025,Bundesliga,Germany,2024-10-04,FC Augsburg,Borussia Mönchengladbach,2,1,1,1,4,2,36.3,63.7,1.15,0.71,16,3,3,1
+2024-2025,Bundesliga,Germany,2024-10-05,Bayer Leverkusen,Holstein Kiel,2,2,0,X,4,4,35.5,64.5,0.9,1.52,8,19,4,1
+2024-2025,Bundesliga,Germany,2024-10-05,Werder Bremen,Freiburg,0,1,-1,2,0,2,54.5,45.5,2.85,1.85,19,7,1,0
+2024-2025,Bundesliga,Germany,2024-10-05,Union Berlin,Borussia Dortmund,2,1,1,1,4,2,42.1,57.9,2.06,2.51,13,7,3,1
+2024-2025,Bundesliga,Germany,2024-10-05,Bochum,Wolfsburg,1,3,-2,2,2,5,36.6,63.4,1.01,0.55,12,6,4,1
+2024-2025,Bundesliga,Germany,2024-10-05,St Pauli,Mainz,0,3,-3,2,0,5,64.5,35.5,1.64,1.17,18,18,3,1
+2024-2025,Bundesliga,Germany,2024-10-06,Stuttgart,Hoffenheim,1,1,0,X,2,2,63.5,36.5,0.86,1.01,19,18,2,0
+2024-2025,Bundesliga,Germany,2024-10-06,Eintracht Frankfurt,Bayern Munich,3,3,0,X,5,5,61.3,38.7,1.4,2.17,14,3,6,1
+2024-2025,Bundesliga,Germany,2024-10-06,FC Heidenheim,RB Leipzig,0,1,-1,2,0,2,52.9,47.1,0.62,1.34,5,12,1,0
+2024-2025,Bundesliga,Germany,2024-10-18,Borussia Dortmund,St Pauli,2,1,1,1,4,2,51.8,48.2,1.25,1.06,9,10,3,1
+2024-2025,Bundesliga,Germany,2024-10-19,Bayer Leverkusen,Eintracht Frankfurt,2,1,1,1,4,2,54.2,45.8,1.81,2.76,19,5,3,1
+2024-2025,Bundesliga,Germany,2024-10-19,Bayern Munich,Stuttgart,4,0,4,1,5,0,60.6,39.4,2.66,1.56,14,13,4,1
+2024-2025,Bundesliga,Germany,2024-10-19,Hoffenheim,Bochum,3,1,2,1,5,2,46.7,53.3,1.93,1.6,16,18,4,1
+2024-2025,Bundesliga,Germany,2024-10-19,Freiburg,FC Augsburg,3,1,2,1,5,2,40.5,59.5,1.64,0.58,3,5,4,1
+2024-2025,Bundesliga,Germany,2024-10-19,Mainz,RB Leipzig,0,2,-2,2,0,4,53.1,46.9,0.74,1.93,17,7,2,0
+2024-2025,Bundesliga,Germany,2024-10-19,Borussia Mönchengladbach,FC Heidenheim,3,2,1,1,5,4,48.7,51.3,2.68,0.62,13,6,5,1
+2024-2025,Bundesliga,Germany,2024-10-20,Wolfsburg,Werder Bremen,2,4,-2,2,4,5,39.1,60.9,0.51,2.04,10,18,6,1
+2024-2025,Bundesliga,Germany,2024-10-20,Holstein Kiel,Union Berlin,0,2,-2,2,0,4,53.8,46.2,1.83,0.79,16,8,2,0
+2024-2025,Bundesliga,Germany,2024-10-25,Mainz,Borussia Mönchengladbach,1,1,0,X,2,2,55.9,44.1,2.35,2.94,7,14,2,0
+2024-2025,Bundesliga,Germany,2024-10-26,Stuttgart,Holstein Kiel,2,1,1,1,4,2,61.6,38.4,2.6,1.82,13,9,3,1
+2024-2025,Bundesliga,Germany,2024-10-26,RB Leipzig,Freiburg,3,1,2,1,5,2,57.2,42.8,0.84,1.24,4,13,4,1
+2024-2025,Bundesliga,Germany,2024-10-26,Werder Bremen,Bayer Leverkusen,2,2,0,X,4,4,39.1,60.9,1.2,1.56,8,14,4,1
+2024-2025,Bundesliga,Germany,2024-10-26,FC Augsburg,Borussia Dortmund,2,1,1,1,4,2,63.1,36.9,1.53,2.91,13,8,3,1
+2024-2025,Bundesliga,Germany,2024-10-26,St Pauli,Wolfsburg,0,0,0,X,0,0,62.8,37.2,1.02,1.81,13,4,0,0
+2024-2025,Bundesliga,Germany,2024-10-27,FC Heidenheim,Hoffenheim,0,0,0,X,0,0,58.6,41.4,1.59,1.98,7,4,0,0
+2024-2025,Bundesliga,Germany,2024-10-27,Union Berlin,Eintracht Frankfurt,1,1,0,X,2,2,36.3,63.7,2.3,2.18,3,12,2,0
+2024-2025,Bundesliga,Germany,2024-10-27,Bochum,Bayern Munich,0,5,-5,2,0,5,50.6,49.4,1.44,1.21,10,16,5,1
+2024-2025,Bundesliga,Germany,2024-11-01,Bayer Leverkusen,Stuttgart,0,0,0,X,0,0,56.3,43.7,2.31,2.72,9,10,0,0
+2024-2025,Bundesliga,Germany,2024-11-02,Bayern Munich,Union Berlin,3,0,3,1,5,0,45.1,54.9,1.0,0.51,8,8,3,1
+2024-2025,Bundesliga,Germany,2024-11-02,Borussia Dortmund,RB Leipzig,2,1,1,1,4,2,64.4,35.6,1.13,1.13,17,18,3,1
+2024-2025,Bundesliga,Germany,2024-11-02,Eintracht Frankfurt,Bochum,7,2,5,1,5,4,51.7,48.3,2.98,1.99,11,13,9,1
+2024-2025,Bundesliga,Germany,2024-11-02,Hoffenheim,St Pauli,0,2,-2,2,0,4,53.8,46.2,1.62,2.59,14,12,2,0
+2024-2025,Bundesliga,Germany,2024-11-02,Wolfsburg,FC Augsburg,1,1,0,X,2,2,59.0,41.0,1.9,1.76,17,13,2,0
+2024-2025,Bundesliga,Germany,2024-11-02,Holstein Kiel,FC Heidenheim,1,0,1,1,2,0,56.2,43.8,1.03,1.54,3,7,1,0
+2024-2025,Bundesliga,Germany,2024-11-03,Freiburg,Mainz,0,0,0,X,0,0,61.5,38.5,0.77,2.94,19,7,0,0
+2024-2025,Bundesliga,Germany,2024-11-03,Borussia Mönchengladbach,Werder Bremen,4,1,3,1,5,2,63.4,36.6,2.53,1.03,16,18,5,1
+2024-2025,Bundesliga,Germany,2024-11-08,Union Berlin,Freiburg,0,0,0,X,0,0,38.2,61.8,1.59,2.49,3,10,0,0
+2024-2025,Bundesliga,Germany,2024-11-09,RB Leipzig,Borussia Mönchengladbach,0,0,0,X,0,0,47.3,52.7,1.33,1.48,13,10,0,0
+2024-2025,Bundesliga,Germany,2024-11-09,Werder Bremen,Holstein Kiel,2,1,1,1,4,2,64.0,36.0,2.9,1.42,5,9,3,1
+2024-2025,Bundesliga,Germany,2024-11-09,Mainz,Borussia Dortmund,3,1,2,1,5,2,50.4,49.6,0.93,2.96,16,16,4,1
+2024-2025,Bundesliga,Germany,2024-11-09,Bochum,Bayer Leverkusen,1,1,0,X,2,2,54.4,45.6,1.64,1.28,7,17,2,0
+2024-2025,Bundesliga,Germany,2024-11-09,St Pauli,Bayern Munich,0,1,-1,2,0,2,48.1,51.9,2.34,1.03,4,7,1,0
+2024-2025,Bundesliga,Germany,2024-11-10,Stuttgart,Eintracht Frankfurt,2,3,-1,2,4,5,44.1,55.9,2.89,1.37,15,13,5,1
+2024-2025,Bundesliga,Germany,2024-11-10,FC Heidenheim,Wolfsburg,1,3,-2,2,2,5,41.1,58.9,2.08,1.01,9,17,4,1
+2024-2025,Bundesliga,Germany,2024-11-10,FC Augsburg,Hoffenheim,0,0,0,X,0,0,58.7,41.3,0.61,2.11,12,3,0,0
+2024-2025,Bundesliga,Germany,2024-11-22,Bayern Munich,FC Augsburg,3,0,3,1,5,0,64.8,35.2,2.64,1.52,6,16,3,1
+2024-2025,Bundesliga,Germany,2024-11-23,Bayer Leverkusen,FC Heidenheim,5,2,3,1,5,4,62.0,38.0,0.75,2.88,11,14,7,1
+2024-2025,Bundesliga,Germany,2024-11-23,Stuttgart,Bochum,2,0,2,1,4,0,47.6,52.4,1.6,2.51,12,4,2,0
+2024-2025,Bundesliga,Germany,2024-11-23,Borussia Dortmund,Freiburg,4,0,4,1,5,0,35.9,64.1,1.5,2.6,16,17,4,1
+2024-2025,Bundesliga,Germany,2024-11-23,Eintracht Frankfurt,Werder Bremen,1,0,1,1,2,0,38.5,61.5,2.31,2.4,13,16,1,0
+2024-2025,Bundesliga,Germany,2024-11-23,Hoffenheim,RB Leipzig,4,3,1,1,5,5,57.6,42.4,2.01,0.54,9,10,7,1
+2024-2025,Bundesliga,Germany,2024-11-23,Wolfsburg,Union Berlin,1,0,1,1,2,0,54.8,45.2,0.8,2.58,12,6,1,0
+2024-2025,Bundesliga,Germany,2024-11-24,Borussia Mönchengladbach,St Pauli,2,0,2,1,4,0,45.9,54.1,0.85,1.18,12,3,2,0
+2024-2025,Bundesliga,Germany,2024-11-24,Holstein Kiel,Mainz,0,3,-3,2,0,5,58.2,41.8,1.71,0.88,15,10,3,1
+2024-2025,Bundesliga,Germany,2024-11-29,St Pauli,Holstein Kiel,3,1,2,1,5,2,57.9,42.1,2.26,1.06,9,11,4,1
+2024-2025,Ligue 1,France,2024-08-16,Le Havre,Paris SG,1,4,-3,2,2,5,47.8,52.2,2.14,2.34,14,8,5,1
+2024-2025,Ligue 1,France,2024-08-17,Brest,Marseille,1,5,-4,2,2,5,44.4,55.6,1.88,0.67,11,18,6,1
+2024-2025,Ligue 1,France,2024-08-17,Monaco,St Etienne,1,0,1,1,2,0,51.4,48.6,0.82,1.13,19,3,1,0
+2024-2025,Ligue 1,France,2024-08-17,Stade de Reims,Lille,0,2,-2,2,0,4,53.7,46.3,1.47,2.24,4,7,2,0
+2024-2025,Ligue 1,France,2024-08-18,Montpellier,Strasbourg,1,1,0,X,2,2,42.4,57.6,2.62,0.78,3,14,2,0
+2024-2025,Ligue 1,France,2024-08-18,Toulouse,Nantes,0,0,0,X,0,0,42.6,57.4,0.63,2.2,12,10,0,0
+2024-2025,Ligue 1,France,2024-08-18,Angers,Lens,0,1,-1,2,0,2,42.6,57.4,2.3,0.98,15,15,1,0
+2024-2025,Ligue 1,France,2024-08-18,Auxerre,Nice,2,1,1,1,4,2,40.4,59.6,1.06,2.23,15,19,3,1
+2024-2025,Ligue 1,France,2024-08-18,Rennes,Lyon,3,0,3,1,5,0,49.4,50.6,0.51,1.81,12,18,3,1
+2024-2025,Ligue 1,France,2024-08-23,Paris SG,Montpellier,6,0,6,1,5,0,62.6,37.4,0.95,2.69,16,18,6,1
+2024-2025,Ligue 1,France,2024-08-24,St Etienne,Le Havre,0,2,-2,2,0,4,44.8,55.2,1.2,2.7,18,5,2,0
+2024-2025,Ligue 1,France,2024-08-24,Lille,Angers,2,0,2,1,4,0,57.6,42.4,1.34,2.28,10,14,2,0
+2024-2025,Ligue 1,France,2024-08-24,Lyon,Monaco,0,2,-2,2,0,4,35.8,64.2,0.56,0.66,17,15,2,0
+2024-2025,Ligue 1,France,2024-08-25,Strasbourg,Rennes,3,1,2,1,5,2,63.4,36.6,2.46,1.92,6,4,4,1
+2024-2025,Ligue 1,France,2024-08-25,Nantes,Auxerre,2,0,2,1,4,0,47.5,52.5,2.97,1.64,9,8,2,0
+2024-2025,Ligue 1,France,2024-08-25,Nice,Toulouse,1,1,0,X,2,2,61.3,38.7,0.75,1.82,18,12,2,0
+2024-2025,Ligue 1,France,2024-08-25,Lens,Brest,2,0,2,1,4,0,35.3,64.7,2.55,2.02,13,6,2,0
+2024-2025,Ligue 1,France,2024-08-25,Marseille,Stade de Reims,2,2,0,X,4,4,64.2,35.8,0.53,1.36,18,9,4,1
+2024-2025,Ligue 1,France,2024-08-30,Lyon,Strasbourg,4,3,1,1,5,5,63.2,36.8,0.69,1.64,7,9,7,1
+2024-2025,Ligue 1,France,2024-08-31,Brest,St Etienne,4,0,4,1,5,0,58.7,41.3,1.88,0.59,5,12,4,1
+2024-2025,Ligue 1,France,2024-08-31,Montpellier,Nantes,1,3,-2,2,2,5,41.1,58.9,2.44,2.35,13,13,4,1
+2024-2025,Ligue 1,France,2024-08-31,Toulouse,Marseille,1,3,-2,2,2,5,58.9,41.1,0.69,2.08,15,12,4,1
+2024-2025,Ligue 1,France,2024-09-01,Lille,Paris SG,1,3,-2,2,2,5,62.0,38.0,0.54,2.72,17,3,4,1
+2024-2025,Ligue 1,France,2024-09-01,Angers,Nice,1,4,-3,2,2,5,36.6,63.4,2.87,2.27,13,7,5,1
+2024-2025,Ligue 1,France,2024-09-01,Monaco,Lens,1,1,0,X,2,2,50.4,49.6,2.95,0.95,16,3,2,0
+2024-2025,Ligue 1,France,2024-09-01,Le Havre,Auxerre,3,1,2,1,5,2,43.2,56.8,1.55,1.35,13,8,4,1
+2024-2025,Ligue 1,France,2024-09-01,Stade de Reims,Rennes,2,1,1,1,4,2,49.2,50.8,0.55,1.6,3,19,3,1
+2024-2025,Ligue 1,France,2024-09-13,St Etienne,Lille,1,0,1,1,2,0,35.2,64.8,1.81,1.2,9,7,1,0
+2024-2025,Ligue 1,France,2024-09-14,Auxerre,Monaco,0,3,-3,2,0,5,57.5,42.5,2.64,0.87,9,10,3,1
+2024-2025,Ligue 1,France,2024-09-14,Marseille,Nice,2,0,2,1,4,0,51.6,48.4,0.69,1.97,10,4,2,0
+2024-2025,Ligue 1,France,2024-09-14,Paris SG,Brest,3,1,2,1,5,2,52.4,47.6,0.84,1.34,5,12,4,1
+2024-2025,Ligue 1,France,2024-09-15,Rennes,Montpellier,3,0,3,1,5,0,43.7,56.3,2.06,1.44,4,7,3,1
+2024-2025,Ligue 1,France,2024-09-15,Lens,Lyon,0,0,0,X,0,0,54.6,45.4,1.77,1.41,3,5,0,0
+2024-2025,Ligue 1,France,2024-09-15,Nantes,Stade de Reims,1,2,-1,2,2,4,57.3,42.7,2.47,2.13,13,8,3,1
+2024-2025,Ligue 1,France,2024-09-15,Toulouse,Le Havre,2,0,2,1,4,0,44.6,55.4,1.39,1.65,17,11,2,0
+2024-2025,Ligue 1,France,2024-09-15,Strasbourg,Angers,1,1,0,X,2,2,63.3,36.7,1.05,1.89,9,8,2,0
+2024-2025,Ligue 1,France,2024-09-20,Nice,St Etienne,8,0,8,1,5,0,59.4,40.6,1.15,2.56,8,16,8,1
+2024-2025,Ligue 1,France,2024-09-21,Stade de Reims,Paris SG,1,1,0,X,2,2,56.1,43.9,0.79,1.77,9,16,2,0
+2024-2025,Ligue 1,France,2024-09-21,Lille,Strasbourg,3,3,0,X,5,5,57.8,42.2,1.41,2.34,10,4,6,1
+2024-2025,Ligue 1,France,2024-09-21,Rennes,Lens,1,1,0,X,2,2,45.6,54.4,1.48,2.62,11,11,2,0
+2024-2025,Ligue 1,France,2024-09-22,Lyon,Marseille,2,3,-1,2,4,5,52.0,48.0,1.76,2.49,13,8,5,1
+2024-2025,Ligue 1,France,2024-09-22,Brest,Toulouse,2,0,2,1,4,0,35.2,64.8,0.8,2.05,14,13,2,0
+2024-2025,Ligue 1,France,2024-09-22,Angers,Nantes,1,1,0,X,2,2,56.6,43.4,1.73,1.92,7,16,2,0
+2024-2025,Ligue 1,France,2024-09-22,Montpellier,Auxerre,3,2,1,1,5,4,57.3,42.7,0.69,0.99,5,11,5,1
+2024-2025,Ligue 1,France,2024-09-22,Monaco,Le Havre,3,1,2,1,5,2,53.0,47.0,1.36,2.77,16,7,4,1
+2024-2025,Ligue 1,France,2024-09-27,Paris SG,Rennes,3,1,2,1,5,2,53.8,46.2,1.36,1.12,13,8,4,1
+2024-2025,Ligue 1,France,2024-09-27,Auxerre,Brest,3,0,3,1,5,0,40.7,59.3,2.65,1.84,15,17,3,1
+2024-2025,Ligue 1,France,2024-09-28,Lens,Nice,0,0,0,X,0,0,57.2,42.8,1.46,3.0,17,3,0,0
+2024-2025,Ligue 1,France,2024-09-28,Le Havre,Lille,0,3,-3,2,0,5,46.3,53.7,2.33,1.35,10,8,3,1
+2024-2025,Ligue 1,France,2024-09-28,Monaco,Montpellier,2,1,1,1,4,2,51.2,48.8,1.06,1.84,12,7,3,1
+2024-2025,Ligue 1,France,2024-09-29,Strasbourg,Marseille,1,0,1,1,2,0,40.8,59.2,1.14,2.17,8,4,1,0
+2024-2025,Ligue 1,France,2024-09-29,Nantes,St Etienne,2,2,0,X,4,4,35.1,64.9,2.54,0.75,16,3,4,1
+2024-2025,Ligue 1,France,2024-09-29,Toulouse,Lyon,1,2,-1,2,2,4,46.7,53.3,1.72,1.6,14,16,3,1
+2024-2025,Ligue 1,France,2024-09-29,Angers,Stade de Reims,1,3,-2,2,2,5,51.4,48.6,2.94,2.46,19,15,4,1
+2024-2025,Ligue 1,France,2024-10-04,Marseille,Angers,1,1,0,X,2,2,44.1,55.9,1.02,1.82,3,5,2,0
+2024-2025,Ligue 1,France,2024-10-05,Lille,Toulouse,2,1,1,1,4,2,50.4,49.6,1.7,1.42,5,3,3,1
+2024-2025,Ligue 1,France,2024-10-05,St Etienne,Auxerre,3,1,2,1,5,2,44.5,55.5,1.46,0.97,4,8,4,1
+2024-2025,Ligue 1,France,2024-10-05,Rennes,Monaco,1,2,-1,2,2,4,49.8,50.2,1.33,0.9,6,10,3,1
+2024-2025,Ligue 1,France,2024-10-06,Lyon,Nantes,2,0,2,1,4,0,49.6,50.4,2.43,0.81,12,17,2,0
+2024-2025,Ligue 1,France,2024-10-06,Nice,Paris SG,1,1,0,X,2,2,56.4,43.6,0.65,1.61,17,15,2,0
+2024-2025,Ligue 1,France,2024-10-06,Brest,Le Havre,2,0,2,1,4,0,41.4,58.6,2.31,1.4,4,4,2,0
+2024-2025,Ligue 1,France,2024-10-06,Strasbourg,Lens,2,2,0,X,4,4,45.6,54.4,2.35,2.62,18,3,4,1
+2024-2025,Ligue 1,France,2024-10-06,Stade de Reims,Montpellier,4,2,2,1,5,4,54.7,45.3,1.86,1.17,16,8,6,1
+2024-2025,Ligue 1,France,2024-10-18,Monaco,Lille,0,0,0,X,0,0,62.5,37.5,0.73,1.22,7,10,0,0
+2024-2025,Ligue 1,France,2024-10-19,St Etienne,Lens,0,2,-2,2,0,4,47.4,52.6,2.62,1.78,3,4,2,0
+2024-2025,Ligue 1,France,2024-10-19,Brest,Rennes,1,1,0,X,2,2,54.7,45.3,1.88,2.41,8,18,2,0
+2024-2025,Ligue 1,France,2024-10-19,Paris SG,Strasbourg,4,2,2,1,5,4,64.9,35.1,1.07,2.59,4,6,6,1
+2024-2025,Ligue 1,France,2024-10-20,Auxerre,Stade de Reims,2,1,1,1,4,2,44.5,55.5,0.66,1.63,6,7,3,1
+2024-2025,Ligue 1,France,2024-10-20,Toulouse,Angers,1,1,0,X,2,2,49.6,50.4,1.61,2.89,5,15,2,0
+2024-2025,Ligue 1,France,2024-10-20,Le Havre,Lyon,0,4,-4,2,0,5,59.3,40.7,2.37,2.71,16,7,4,1
+2024-2025,Ligue 1,France,2024-10-20,Nantes,Nice,1,1,0,X,2,2,62.6,37.4,1.82,0.66,6,6,2,0
+2024-2025,Ligue 1,France,2024-10-20,Montpellier,Marseille,0,5,-5,2,0,5,58.1,41.9,2.53,2.9,13,19,5,1
+2024-2025,Ligue 1,France,2024-10-25,Rennes,Le Havre,1,0,1,1,2,0,45.6,54.4,2.94,1.26,10,15,1,0
+2024-2025,Ligue 1,France,2024-10-26,Lens,Lille,0,2,-2,2,0,4,47.9,52.1,0.89,2.38,17,19,2,0
+2024-2025,Ligue 1,France,2024-10-26,Angers,St Etienne,4,2,2,1,5,4,46.7,53.3,1.4,1.88,3,3,6,1
+2024-2025,Ligue 1,France,2024-10-26,Stade de Reims,Brest,1,2,-1,2,2,4,38.8,61.2,1.46,1.32,8,5,3,1
+2024-2025,Ligue 1,France,2024-10-27,Nice,Monaco,2,1,1,1,4,2,59.8,40.2,2.81,2.28,17,11,3,1
+2024-2025,Ligue 1,France,2024-10-27,Marseille,Paris SG,0,3,-3,2,0,5,57.5,42.5,1.88,2.26,8,11,3,1
+2024-2025,Ligue 1,France,2024-10-27,Lyon,Auxerre,2,2,0,X,4,4,42.2,57.8,0.58,0.55,10,14,4,1
+2024-2025,Ligue 1,France,2024-10-27,Montpellier,Toulouse,0,3,-3,2,0,5,58.5,41.5,2.83,2.38,4,16,3,1
+2024-2025,Ligue 1,France,2024-10-27,Strasbourg,Nantes,3,1,2,1,5,2,52.2,47.8,1.03,1.96,19,19,4,1
+2024-2025,Ligue 1,France,2024-11-01,Monaco,Angers,0,1,-1,2,0,2,36.8,63.2,2.02,1.55,16,10,1,0
+2024-2025,Ligue 1,France,2024-11-01,Lille,Lyon,1,1,0,X,2,2,40.1,59.9,2.96,2.92,9,8,2,0
+2024-2025,Ligue 1,France,2024-11-02,St Etienne,Strasbourg,2,0,2,1,4,0,51.0,49.0,1.61,1.17,17,19,2,0
+2024-2025,Ligue 1,France,2024-11-02,Brest,Nice,0,1,-1,2,0,2,39.9,60.1,2.41,0.68,5,6,1,0
+2024-2025,Ligue 1,France,2024-11-02,Paris SG,Lens,1,0,1,1,2,0,57.5,42.5,1.84,2.92,19,6,1,0
+2024-2025,Ligue 1,France,2024-11-03,Auxerre,Rennes,4,0,4,1,5,0,49.6,50.4,0.87,2.22,4,15,4,1
+2024-2025,Ligue 1,France,2024-11-03,Toulouse,Stade de Reims,1,0,1,1,2,0,44.0,56.0,0.54,0.68,19,12,1,0
+2024-2025,Ligue 1,France,2024-11-03,Le Havre,Montpellier,1,0,1,1,2,0,60.5,39.5,1.11,0.84,16,11,1,0
+2024-2025,Ligue 1,France,2024-11-03,Nantes,Marseille,1,2,-1,2,2,4,50.1,49.9,1.09,1.96,19,6,3,1
+2024-2025,Ligue 1,France,2024-11-08,Marseille,Auxerre,1,3,-2,2,2,5,63.4,36.6,0.77,2.96,17,15,4,1
+2024-2025,Ligue 1,France,2024-11-09,Strasbourg,Monaco,1,3,-2,2,2,5,55.9,44.1,2.48,0.56,12,14,4,1
+2024-2025,Ligue 1,France,2024-11-09,Lens,Nantes,3,2,1,1,5,4,38.4,61.6,2.05,1.22,4,18,5,1
+2024-2025,Ligue 1,France,2024-11-09,Angers,Paris SG,2,4,-2,2,4,5,40.7,59.3,2.29,1.07,15,11,6,1
+2024-2025,Ligue 1,France,2024-11-10,Lyon,St Etienne,1,0,1,1,2,0,37.5,62.5,2.4,1.71,17,13,1,0
+2024-2025,Ligue 1,France,2024-11-10,Montpellier,Brest,3,1,2,1,5,2,39.4,60.6,2.31,1.13,9,5,4,1
+2024-2025,Ligue 1,France,2024-11-10,Le Havre,Stade de Reims,0,3,-3,2,0,5,55.4,44.6,0.89,1.96,9,17,3,1
+2024-2025,Ligue 1,France,2024-11-10,Rennes,Toulouse,0,2,-2,2,0,4,41.5,58.5,0.58,1.6,18,5,2,0
+2024-2025,Ligue 1,France,2024-11-10,Nice,Lille,2,2,0,X,4,4,59.8,40.2,2.57,0.67,19,16,4,1
+2024-2025,Ligue 1,France,2024-11-22,Paris SG,Toulouse,3,0,3,1,5,0,43.4,56.6,2.96,0.74,7,14,3,1
